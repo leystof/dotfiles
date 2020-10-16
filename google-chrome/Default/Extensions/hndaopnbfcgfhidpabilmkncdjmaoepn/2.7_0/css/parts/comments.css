@@ -1,0 +1,41 @@
+#fua_youtube_comment_filter_select_id{
+    min-width: 200px;
+    height: 28px;
+    margin-left: 10px;
+    background-color: #f8f8f8;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+#fua_youtube_comment_filter_select_id:hover{
+    background-color: #f0f0f0;
+}
+
+#fua_youtube_comment_filter_select_id:hover option{
+    background-color: #f8f8f8;
+}
+
+.fua_youtube_hidden_comment{
+    display: none !important;
+}
+
+#fua_youtube_comment_filter_input_id{
+    width: 293px;
+    margin-top: 10px;
+    padding: 5px;
+    display: none;
+}
+
+.fua_youtube_highlighted_comment_text, .fua_youtube_highlighted_comment_class{
+    background-color: #ffff00 !important;
+}
+
+.fua_youtube_subscriber_count_label{
+    margin-left: 10px;
+    padding: 0px 2px 0px;
+    color: #767676;
+    display: inline-block;
+    font-size: 11px;
+    vertical-align: top;
+    background-color: #f5f5f5;
+}

@@ -1,0 +1,29 @@
+.fua_youtube_hidden{
+    display: none;
+}
+
+#fua_youtube_md_edit_info_id{
+    /*min-height: 250px;*/
+    height: 250px;
+}
+
+
+.fua_youtube_success_info_line,
+.fua_youtube_finish_info_line,
+.fua_youtube_error_info_line{
+    padding: 5px 10px 5px;
+    font-weight: bold;
+}
+
+.fua_youtube_success_info_line{
+    color: #1155cc;
+}
+
+.fua_youtube_finish_info_line{
+    border-bottom: 1px solid #008000;
+    color: #008000;
+}
+
+.fua_youtube_error_info_line{
+    color: red;
+}

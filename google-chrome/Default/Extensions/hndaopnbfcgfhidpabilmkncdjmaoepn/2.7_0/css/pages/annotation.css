@@ -1,0 +1,77 @@
+#fua-plugin-youtube_annotation_video_search_result_box{
+    /*border-color: #e5e5e5;
+    border-width: 0px 2px 2px 2px;*/
+    /*border: 2px solid #e5e5e5;*/
+    overflow-y: auto;
+}
+
+#fua-plagin-youtube-shablon-menu-item-id,
+#fua-plagin-youtube-copy-menu-item-id{
+    color: #ffffff !important;
+    background-color: #056FC3;
+}
+
+#fua-plagin-youtube-shablon-menu-item-id:hover,
+#fua-plagin-youtube-copy-menu-item-id:hover{
+    background-color: #333;
+}
+
+#fua-plagin-youtube-saved-annotations-block-id{
+    background-color: #ffffff;
+    border: 2px solid orange;
+    display: none;
+}
+
+
+
+#fua-plagin-youtube-close-saved-annotations-block-id,
+#fua-plagin-youtube-close-copy-annotations-block-id,
+.fua-plagin-youtube-remove-saved-annotation{
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#fua-plagin-youtube-close-saved-annotations-block-id,
+#fua-plagin-youtube-close-copy-annotations-block-id{
+    width: 20px;
+    height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
+    background-color: orange;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+}
+
+
+.fua-plagin-youtube-remove-saved-annotation{
+    color: gray;
+    margin-left: 25px;
+}
+
+.fua-plagin-youtube-annotation-item-footer{
+    padding: 15px;
+    text-align: center;
+    font-size: smaller;
+}
+
+#fua-plagin-youtube-save-annotation-button-id{
+    padding: 5px 10px 5px;
+    background-color: orange;
+    font-size: 10px;
+    font-weight: bold;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.fua-plagin-youtube-save-annotation-button-blocked{
+    background-color: #cccccc !important;
+    color: #898989 !important;
+}
+
+
+.fua-plugin-youtube-annotation-item-annotations-checkbox{
+    opacity: 1 !important;
+}

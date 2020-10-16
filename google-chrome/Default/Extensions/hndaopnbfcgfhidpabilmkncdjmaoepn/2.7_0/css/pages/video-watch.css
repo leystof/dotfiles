@@ -1,0 +1,58 @@
+#fua-plugin-youtube_video_youtube_place_circle_load,
+#fua-plugin-youtube_yandex_ranks_circle_load{
+    position: absolute;
+    display: none;
+}
+
+
+#fua-plugin-youtube_video_youtube_place_circle_load{
+    margin-left: 160px;
+}
+
+#fua-plugin-youtube_yandex_ranks_circle_load{
+    margin-left: 450px;
+}
+
+
+.fua-plugin-youtube-video-show-text-line{
+    margin-top: 11px;
+    position: absolute;
+}
+
+
+.fua-plugin-youtube-watch-video-tags{
+    color: #333;
+    padding: 0 9px 0 9px;
+    height: 22px;
+    line-height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin: 4px;
+    overflow: hidden;
+    resize: none;
+    /*-moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;*/
+    box-shadow: 0 1px 0 white;
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+.fua-plugin-youtube-watch-video-tags:hover{
+    border: 1px solid orange;
+}
+
+.fua-plugin-youtube-watch-video-tags-selected{
+    background-color: orange;
+}
+
+#fua-plugin-youtube-chanel-tags-box-id,
+#fua-plugin-youtube-list-tags-box-id{
+    border-top: 1px solid #000000;
+}
+
+.icon_on_video_bar{
+    margin-top: 9px;
+    width: 18px;
+}

@@ -1,0 +1,18 @@
+{
+	"generators": {
+		"31536587": {
+			"type": "local",
+			"path": "/home/leystof/.config/yarn/global/node_modules/create-nuxt-app/lib",
+			"hash": "31536587"
+		},
+		"59f2f5a8": {
+			"type": "local",
+			"path": "/home/leystof/.node_modules/lib/node_modules/create-nuxt-app/lib",
+			"hash": "59f2f5a8"
+		}
+	},
+	"answers": {
+		"59f2f5a8__npm__": {},
+		"31536587__npm__": {}
+	}
+}

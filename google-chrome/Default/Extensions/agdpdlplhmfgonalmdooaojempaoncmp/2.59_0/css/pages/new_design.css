@@ -1,0 +1,391 @@
+html, body, ytd-app.ytd-app-0 > #content > #page-manager, ytd-page-manager#page-manager {
+    width: 100vw;
+    height: 100vh;
+    background-color: #18191b;
+}
+
+div#content > div#masthead-container {
+    background-color: #18191b;
+}
+
+div#content > div#masthead-container > ytd-masthead#masthead {
+    background-color: #18191b !important;
+}
+
+div#content > div#masthead-container > ytd-masthead#masthead ytd-topbar-logo-renderer button#menu-button #guide-icon, paper-icon-button#search-icon > yt-icon, ytd-searchbox#search #search-icon-legacy yt-icon, div#content > div#masthead-container > ytd-masthead#masthead div#end #buttons yt-icon {
+    fill: rgba(255, 255, 255, .7);
+}
+
+div#content > div#masthead-container > ytd-masthead#masthead ytd-searchbox#search {
+    max-width: 60%;
+}
+
+div#content > div#masthead-container > ytd-masthead#masthead ytd-searchbox#search, div#content > div#masthead-container > ytd-masthead#masthead ytd-searchbox#search paper-input#search, div#content > div#masthead-container > ytd-masthead#masthead ytd-searchbox#search paper-input-container.paper-input-container-0, div#content > div#masthead-container > ytd-masthead#masthead ytd-searchbox#search .gstl_50, div#content > div#masthead-container > ytd-masthead#masthead ytd-searchbox#search input, div#content > div#masthead-container > ytd-masthead#masthead form#search-form > div#container, ytd-searchbox#search #search-icon-legacy {
+    background-color: #474747 !important;
+    color: #ffffff;
+}
+
+ytd-searchbox#search #search-icon-legacy {
+    border-color: #474747 !important;
+}
+
+div#content > div#masthead-container > ytd-masthead#masthead form#search-form {
+    max-width: 100% !important;
+}
+
+ytd-searchbox #container.ytd-searchbox {
+    box-shadow: none !important;
+}
+
+div#content > div#masthead-container > ytd-masthead#masthead form#search-form > div#container {
+    border-color: #474747 !important;
+}
+
+div#content > div#masthead-container > ytd-masthead#masthead ytd-topbar-logo-renderer > a#logo > yt-icon, div#content > div#masthead-container > ytd-masthead#masthead ytd-topbar-logo-renderer > a#logo > yt-icon {
+    display: none;
+}
+
+div#content > div#masthead-container > ytd-masthead#masthead div#end #upload-button, div#content > div#masthead-container > ytd-masthead#masthead div#end #buttons ytd-button-renderer yt-formatted-string {
+    color: rgba(255, 255, 255, .7);
+}
+
+#related {
+    left: 0px;
+    width: 100vw !important;
+    max-width: 100vw !important;
+    height: 105px !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    background-color: #18191b;
+    position: fixed !important;
+    overflow: hidden !important;
+    display: block !important;
+    z-index: 1000;
+}
+
+#related > ytd-watch-next-secondary-results-renderer > div#items > ytd-compact-autoplay-renderer > div#head, #related > #player-ads, #related ytd-compact-autoplay-renderer div > a.yt-simple-endpoint, #related ytd-compact-video-renderer div > a.yt-simple-endpoint, #related ytd-compact-radio-renderer > a.ytd-compact-radio-renderer {
+    display: none;
+}
+
+#related > ytd-watch-next-secondary-results-renderer > div#items {
+    margin: 0px !important;
+    width: 100vw !important;
+    overflow: hidden !important;
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+#related div#items > ytd-compact-autoplay-renderer, #related div#items > ytd-compact-video-renderer, #related div#items > ytd-compact-radio-renderer {
+    height: 94px !important;
+    margin: 5px !important;
+    float: left !important;
+}
+
+ytd-compact-video-renderer .fua_app_view_video_title {
+    color: #ffffff;
+    width: 168px;
+    height: 90px;
+    padding: 5px;
+    font-size: 11px;
+    background-color: rgba(24, 25, 27, 0.6);
+    display: none;
+}
+
+ytd-compact-video-renderer a:hover .fua_app_view_video_title {
+    display: block !important;
+}
+
+ytd-compact-video-renderer ytd-thumbnail a:hover > img {
+    display: none !important;
+}
+
+ytd-watch-next-secondary-results-renderer:hover .recommended_videos_navigation_img {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#player-container {
+    top: 0;
+    margin: 0px;
+    position: fixed !important;
+    display: none;
+}
+
+#top > #container > #main {
+    width: 40vw !important;
+    min-width: 200px !important;
+    max-width: 600px !important;
+    top: 80px !important;
+    background-color: #18191b !important;
+    color: #ffffff;
+    display: block !important;
+    position: fixed !important;
+    z-index: 200;
+}
+
+#top > #container > #main div#content-separator {
+    display: none;
+}
+
+#top > #container > #main #fua_right_content_toggle_id {
+    margin-bottom: 3px;
+}
+
+#top > #container > #main > div#meta {
+    width: 100% !important;
+}
+
+#top > #container > #main > div#meta > ytd-video-secondary-info-renderer {
+    min-height: 0px !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+#top > #container > #main > div#meta > ytd-video-secondary-info-renderer > div#container > div#top-row {
+    margin-left: -200px;
+    visibility: hidden;
+    z-index: -100;
+    position: absolute;
+}
+
+#top > #container > #main > div#meta > ytd-video-secondary-info-renderer ytd-expander {
+    margin: 0px !important;
+    overflow-y: auto;
+}
+
+#top > #container > #main > div#meta > ytd-video-secondary-info-renderer ytd-expander yt-formatted-string {
+    color: #ffffff;
+}
+
+#top > #container > #main > div#info {
+    width: 100% !important;
+}
+
+#top > #container > #main > div#info ytd-video-primary-info-renderer {
+    border-width: 0px !important;
+    height: 22px !important;
+    padding-top: 5px !important;
+    padding-bottom: 0px !important;
+}
+
+#top > #container > #main > div#info ytd-video-primary-info-renderer > div#container > div#info {
+    display: block !important;
+}
+
+#top > #container > #main > div#info ytd-video-primary-info-renderer > div#container > div#info ytd-menu-renderer {
+    float: left !important;
+}
+
+#top > #container > #main > div#info ytd-video-primary-info-renderer > div#container > div#info ytd-menu-renderer yt-icon {
+    fill: #ffffff;
+}
+
+#top > #container > #main > div#info ytd-video-primary-info-renderer h1, #top > #container > #main > div#info ytd-video-primary-info-renderer > div#container > div#info yt-view-count-renderer {
+    display: none;
+}
+
+#top > #container > #main ytd-metadata-row-container-renderer a {
+    color: hsl(206.1, 79.3%, 52.7%);
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#header h2.ytd-comments-header-renderer,
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#header ytd-sort-filter-sub-menu-renderer {
+    display: none;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#header div#create {
+    margin-top: 0px;
+}
+
+#top > #container > #main > ytd-comments#comments, #top > #container > #main > div#comments > ytd-item-section-renderer {
+    width: 100% !important;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#header > ytd-comments-header-renderer {
+    margin: 0px;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#header > ytd-comments-header-renderer > ytd-comment-simplebox-renderer {
+    margin-top: 0px;
+    padding: 5px;
+    background-color: #000000;
+    border-bottom: 1px solid grey;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#header > ytd-comments-header-renderer > ytd-comment-simplebox-renderer yt-formatted-string#simplebox-placeholder {
+    border-bottom: 0px;
+    color: #b8b8b8;
+    cursor: pointer;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#header > ytd-comments-header-renderer > ytd-comment-simplebox-renderer yt-formatted-string#simplebox-placeholder:hover {
+    color: #ffffff;
+}
+
+#fua_new_video_info_line .fua_text_block {
+    width: 100%;
+    color: #ffffff;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents {
+    padding: 5px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    border-bottom: 1px solid grey;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents a#author-text {
+    color: rgb(206, 206, 206);
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents yt-formatted-string.published-time-text a {
+    margin-right: 20px;
+    color: rgb(163, 163, 163);
+    float: right;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents ytd-expander#expander div#content yt-formatted-string#content-text {
+    color: #ffffff;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents paper-button.yt-next-continuation {
+    color: rgb(163, 163, 163);
+    text-transform: uppercase;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents paper-button.yt-next-continuation:hover {
+    text-decoration: underline;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents ytd-comment-action-buttons-renderer div#toolbar ytd-button-renderer#reply-button yt-formatted-string, #top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents ytd-comment-action-buttons-renderer div#toolbar span#vote-count {
+    color: #a3a3a3;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents ytd-comment-action-buttons-renderer div#toolbar ytd-button-renderer#reply-button:hover yt-formatted-string {
+    color: rgb(206, 206, 206);
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents ytd-comment-action-buttons-renderer div#toolbar ytd-toggle-button-renderer yt-icon#icon {
+    fill: #a3a3a3;
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#contents ytd-comment-action-buttons-renderer div#toolbar ytd-toggle-button-renderer:hover yt-icon#icon {
+    fill: rgb(206, 206, 206);
+}
+
+#top > #container > #main > ytd-comments#comments > ytd-item-section-renderer > div#continuations {
+    margin-top: -50px;
+    position: fixed;
+}
+
+#fua_new_action_buttons_line_id div#subscribe-button {
+    margin-top: 3px;
+    text-transform: uppercase;
+    float: right;
+}
+
+#fua_new_action_buttons_line_id div#subscribe-button paper-button {
+    padding: 7px 7px 7px 7px;
+    background-color: #474747;
+    border-width: 0px !important;
+    border-radius: 5px;
+    color: #ffffff !important;
+    overflow: hidden;
+}
+
+#fua_new_action_buttons_line_id div#subscribe-button paper-button yt-formatted-string#text {
+    font-size: 1.3rem !important;
+}
+
+#fua_new_action_buttons_line_id ytd-toggle-button-renderer yt-icon {
+    fill: #ffffff;
+}
+
+#fua_new_action_buttons_line_id ytd-toggle-button-renderer yt-formatted-string {
+    height: 17px !important;
+    color: #ffffff !important;
+}
+
+#top > #container > #main > #fua_new_action_buttons_line_id .fua_under_video_button {
+    display: inline-block;
+}
+
+#top > #container > #main > #fua_new_action_buttons_line_id .fua_under_video_button button {
+    height: 36px;
+    background-color: #18191b;
+    -webkit-align-items: center;
+    align-items: center;
+    cursor: pointer;
+    overflow-y: hidden;
+}
+
+#top > #container > #main > #fua_new_action_buttons_line_id .fua_under_video_button button, #top > #container > #main > #fua_new_action_buttons_line_id .fua_under_video_button button:focus, #top > #container > #main > #fua_new_action_buttons_line_id .fua_under_video_button button:visited {
+    border: none !important;
+    outline: none;
+}
+
+#top > #container > #main > #fua_new_action_buttons_line_id .fua_under_video_button button img {
+    position: absolute;
+    vertical-align: middle;
+}
+
+#top > #container > #main > #fua_new_action_buttons_line_id .fua_under_video_button button span {
+    font-size: 1.3rem !important;
+}
+
+#top > #container > #main > #fua_new_action_buttons_line_id #fua_show_description_id button img {
+    margin-top: -2px;
+}
+
+#top > #container > #main > #fua_new_action_buttons_line_id #fua_show_description_id button span {
+    margin-left: 25px;
+}
+
+#top > #container > #main > #fua_new_action_buttons_line_id #fua_open_comments_id button span {
+    margin-left: 32px;
+}
+
+div#content > div#masthead-container > ytd-masthead#masthead, #top > #container > #main > ytd-comments#comments, #top > #container > #main > div#meta, #top > #container > #main #fua_tags_block_id, #related > ytd-watch-next-secondary-results-renderer {
+    opacity: 0.2;
+    transition: 3s;
+    transition-delay: 3s;
+}
+
+div#content > div#masthead-container > ytd-masthead#masthead:hover, #top > #container > #main > ytd-comments#comments:hover, #top > #container > #main > div#meta:hover, #top > #container > #main #fua_tags_block_id:hover, #related:hover > ytd-watch-next-secondary-results-renderer {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+#error-screen {
+    position: absolute !important;
+}
+
+ytd-comments-header-renderer {
+    background-color: #474747 !important;
+}
+
+ytd-comments-header-renderer ytd-comment-dialog-renderer paper-input-container#input-container {
+    margin-top: 5px !important;
+}
+
+yt-formatted-string#simplebox-placeholder {
+    color: #a3a3a3 !important;
+    cursor: pointer;
+}
+
+iron-autogrow-textarea#textarea textarea#textarea {
+    color: white;
+}
+
+#fua_blocker_comment_alternative_textarea {
+    background-color: #474747 !important;
+    color: white;
+}
+
+ytd-comment-action-buttons-renderer div#footer ytd-button-renderer {
+    color: #a3a3a3 !important;
+}
+
+ytd-comment-renderer yt-icon {
+    fill: rgba(255, 255, 255, .7);
+}

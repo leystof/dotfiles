@@ -1,0 +1,470 @@
+{
+   "about_gif_selected_frames": {
+      "message": "For select or deselect the frame, click on the frame by the left mouse button. For select (deselect) multiple frames, click at the starting point, then hold down the SHIFT and click at the end point of the desired segment."
+   },
+   "add_blocked_video_tags": {
+      "message": "Add tags separated by commas, to block videos"
+   },
+   "add_button": {
+      "message": "Add button"
+   },
+   "add_unique_channels": {
+      "message": "Add unique channels"
+   },
+   "adv_msg_content_1": {
+      "message": "The app is free, they live off the views."
+   },
+   "adv_msg_content_2": {
+      "message": "Disabling recommendations leads to they will \"starve\"."
+   },
+   "application_description": {
+      "description": "Описание приложения",
+      "message": "More comfortable video watching on YouTube. No adverts, GIF, screenshots, mouse control of the sound, blacklist.."
+   },
+   "application_title": {
+      "description": "Название приложение",
+      "message": "«You Clever» — videocombine for Youtube™"
+   },
+   "autotranslation_subtitle": {
+      "message": "Autotranslation of subtitles"
+   },
+   "blocked_msg_placeholder": {
+      "message": "Message for blocked video"
+   },
+   "blocked_video_msg_label": {
+      "message": "The message for blocked video"
+   },
+   "blocked_video_tags_label_id": {
+      "message": "The tags of blocking of the videos"
+   },
+   "by_id": {
+      "description": "Фраза - по id",
+      "message": "By ID"
+   },
+   "by_name": {
+      "description": "Фраза - по названию",
+      "message": "By title"
+   },
+   "change_design": {
+      "description": "Фраза - сменить дизайн",
+      "message": "Change design"
+   },
+   "channels_management": {
+      "message": "Channels management"
+   },
+   "checkbox_settings_advertising_blocked_toggle": {
+      "description": "Отключени/включение блокировки рекламы",
+      "message": "Block advertising"
+   },
+   "checkbox_settings_annotations_blocked_toggle": {
+      "description": "Отключени/включение блокировки аннотаций",
+      "message": "Block annotation"
+   },
+   "clever_recommends": {
+      "description": "Фраза для рекоммендованых видео",
+      "message": "YouClever recommends"
+   },
+   "continue_recording": {
+      "message": "Continue recording"
+   },
+   "create_gif": {
+      "message": "Create GIF"
+   },
+   "creative_studio": {
+      "description": "Фраза - творческая студия",
+      "message": "Creative studio"
+   },
+   "default_settings": {
+      "message": "Default settings"
+   },
+   "default_size": {
+      "message": "Default size"
+   },
+   "delete_all": {
+      "message": "Delete all"
+   },
+   "delete_selected": {
+      "description": "Кнопка - удалить выбранные",
+      "message": "Delete selected"
+   },
+   "developed_by": {
+      "description": "Фраза - разработано",
+      "message": "Developed by"
+   },
+   "do_you_want_to_delete_this_channels_from_black_list": {
+      "message": "Do you want to delete this channels from black list"
+   },
+   "first_adv_clever_for_youtube": {
+      "description": "1 Фраза, рекламы Clever для Youtube",
+      "message": "How to fill tags correctly in couple clicks?"
+   },
+   "for_example": {
+      "message": "For example"
+   },
+   "hide_viewed_videos": {
+      "description": "Пункт в меню для скрытия просмотренных видео",
+      "message": "Hide viewed"
+   },
+   "info_page_title": {
+      "description": "Название для страницы описания настроек",
+      "message": "Settings description of «YouClever»"
+   },
+   "insert_string_of_copied_channels": {
+      "message": "Insert channel names or links separated by commas"
+   },
+   "left_frames": {
+      "message": "Left frames"
+   },
+   "limit_of_frames": {
+      "message": "Limit of frames"
+   },
+   "my_link": {
+      "description": "Фраза - моя ссылка",
+      "message": "My link"
+   },
+   "no_cards": {
+      "message": "Block cards"
+   },
+   "no_tags": {
+      "description": "Фраза, когда нет тегов",
+      "message": "This video hasn't tags!!!"
+   },
+   "only_sound": {
+      "message": "Only sound"
+   },
+   "only_sound_text_on_video": {
+      "message": "YouClever -  \"Only sound\" enabled. Saving of internet traffic up to 90%."
+   },
+   "popup_adv_text": {
+      "message": "F.ua «Here are cheaper». Let check!"
+   },
+   "remove_selection": {
+      "message": "Remove selection"
+   },
+   "restart": {
+      "message": "Restart"
+   },
+   "save_gif": {
+      "message": "Save GIF"
+   },
+   "sd_advertising_blocked_text": {
+      "message": "\u003Cstrong>“Blocked advertising”\u003C/strong> removes banners and annoying flashing images. And video ads, which appear at the beginning of the video and you must wait until it finished"
+   },
+   "sd_advertising_blocked_title": {
+      "message": "Does advertising bother you? How blocked them."
+   },
+   "sd_annotations_blocked_text": {
+      "message": "Check \u003Cstrong>“Block annotations”\u003C/strong> and nothin will distract you while watching video"
+   },
+   "sd_annotations_blocked_title": {
+      "message": "Do pop-up buttons bother you?"
+   },
+   "sd_autoplay_blocked_text": {
+      "message": "Function \u003Cstrong>“Block autoplay”\u003C/strong> — each opened video are on pause. Playing begins only after clicking by “Play”"
+   },
+   "sd_autoplay_blocked_title": {
+      "message": "Open and set on pause..."
+   },
+   "sd_blackchannels_toggle_text": {
+      "message": "Remove useless - look interesting! \u003CStrong> \"Black List channels\" \u003C/strong> can be viewed in the settings and you can restore the desired channel back."
+   },
+   "sd_blackchannels_toggle_title": {
+      "message": "Where from are this video?"
+   },
+   "sd_blocked_blackchannels_video_text": {
+      "message": "Some one threw down the link to the video, and the channel with this video is in your blacklisted .. Do not waste any second to watch - \u003Cstrong>\"Block the video from the black list\"\u003C/strong>. Especially useful if your computer use multiple users."
+   },
+   "sd_blocked_blackchannels_video_title": {
+      "message": "How to block video?"
+   },
+   "sd_design_toggle_text": {
+      "message": "On the page of video, the click by logo YouClever changes design of the page into tv format. Comments will be on right, and recommended videos will be under main video"
+   },
+   "sd_design_toggle_title": {
+      "message": "Change design"
+   },
+   "sd_gridsearch_toggle_text": {
+      "message": "Twice as many videos on the screen, thanks to the \"grid\" list."
+   },
+   "sd_gridsearch_toggle_title": {
+      "message": "More videos on the search page"
+   },
+   "sd_logourl_text": {
+      "message": "Tge click by YouTube logo opens any link, which is selected by you  :)"
+   },
+   "sd_logourl_title": {
+      "message": "My link on Youtube logo"
+   },
+   "sd_only_sound_text": {
+      "message": "Internet traffic savings of up to 90%. Select \"Only sound\" in menu of extension and clicking by YouClever icon causes \"Only sound\" mod."
+   },
+   "sd_only_sound_title": {
+      "message": "Sound without video"
+   },
+   "sd_open_new_window_text": {
+      "message": "Switch between programs or even turn off the browser - the video will be always in front of you. For activation, click by the logo \"YouClever\" on video"
+   },
+   "sd_open_new_window_title": {
+      "message": "Video on top of other windows"
+   },
+   "sd_recommendation_toggle_text": {
+      "message": "One video appears in the recommended. Look it necessarily."
+   },
+   "sd_recommendation_toggle_title": {
+      "message": "New life hacking every day!"
+   },
+   "sd_save_time_toggle_text": {
+      "message": "\u003CStrong> «Save time-code» \u003C/strong> opens video with a last second viewing, even if you watched this video yesterday."
+   },
+   "sd_save_time_toggle_title": {
+      "message": "Where was I? At what second?"
+   },
+   "sd_screenshot_toggle_text": {
+      "message": "Set video quality in the settings, and click on the icon \"Make screenshot\". Remember,  higher quality of the video leads to the larger screenshot"
+   },
+   "sd_screenshot_toggle_title": {
+      "message": "How make big screenshot"
+   },
+   "sd_smartfullscreen_toggle_text": {
+      "message": "Now not necessary to expand and  to collapse video each time. Enough not to move the mouse during selected time and the video will be played back on the full screen.  Collapsing is even easier - one mouse movement"
+   },
+   "sd_smartfullscreen_toggle_title": {
+      "message": "Video on the entire screen after a few seconds"
+   },
+   "sd_smartpause_toggle_text": {
+      "message": "\u003Cstrong>“Pause in new tab”\u003C/strong>: you changed the tab - auto pause on previous tab. Back to the tab and video plays again."
+   },
+   "sd_smartpause_toggle_title": {
+      "message": "No miss important!"
+   },
+   "sd_smartscroll_toggle_text": {
+      "message": "\u003Cstrong>“Video during scrolling”\u003C/strong> shows video in pop-up window, when you read comments"
+   },
+   "sd_smartscroll_toggle_title": {
+      "message": "Comments and video in same time!"
+   },
+   "sd_subtitles_translate_toggle_text": {
+      "message": "Select \"Autotranslation of subtitles\" and each video will become clear"
+   },
+   "sd_subtitles_translate_toggle_title": {
+      "message": "Watch video in any language"
+   },
+   "sd_videoquality_text": {
+      "message": "You start the video and the picture is not clear. Blame Youtube, it plays video in poor quality, although the higher quality is available. Choose what quality you like, but remember: the higher quality leads to the more traffic."
+   },
+   "sd_videoquality_title": {
+      "message": "Does video quality not suit you?"
+   },
+   "sd_wheel_mouse_volume_text": {
+      "message": "Point cursor on video and roll the scroll wheel"
+   },
+   "sd_wheel_mouse_volume_title": {
+      "message": "Volume by mouse wheel"
+   },
+   "second_adv_clever_for_youtube": {
+      "description": "2 Фраза, рекламы Clever для Youtube",
+      "message": "«Clever for Youtube» picks up tags and copies them. And it ..    "
+   },
+   "selected_frames": {
+      "message": "Selected frames"
+   },
+   "settings_checkbox_autoplay_blocked_toggle": {
+      "description": "Отключени/включение автовоспроизведение",
+      "message": "Block autoplay"
+   },
+   "settings_checkbox_blackchannels_toggle": {
+      "description": "Отключени/включение черного списка",
+      "message": "Channels in black list"
+   },
+   "settings_checkbox_blocked_blackchannels_video": {
+      "description": "Отключени/включение блокировки видео из черного списка",
+      "message": "Block videos from black list or by tags"
+   },
+   "settings_checkbox_design_toggle": {
+      "description": "Отключени/включение нашего дизайна",
+      "message": "Logo YouClever - toggles design"
+   },
+   "settings_checkbox_gridsearch_toggle": {
+      "description": "Отключени/включение посик в виде плитки",
+      "message": "Search view as \"Grid\""
+   },
+   "settings_checkbox_open_new_window": {
+      "description": "Отключени/включение открытия в новом окне",
+      "message": "Logo YouClever - opens in new window"
+   },
+   "settings_checkbox_recommendation_toggle": {
+      "description": "Отключени/включение рекомендации YouClever",
+      "message": "YouClever recommendations"
+   },
+   "settings_checkbox_save_time_toggle": {
+      "description": "Отключени/включение сохранение времени видео",
+      "message": "Save time-code"
+   },
+   "settings_checkbox_screenshot_toggle": {
+      "description": "Отключени/включение кнопки скриншота",
+      "message": "Add screenshot button"
+   },
+   "settings_checkbox_smartpause_toggle": {
+      "description": "Отключени/включение паузы в новой вкладке",
+      "message": "Pause in new tab"
+   },
+   "settings_checkbox_smartscroll_toggle": {
+      "description": "Отключени/включение видео при прокрутке",
+      "message": "Video during scrolling"
+   },
+   "settings_checkbox_wheel_volume_toggle": {
+      "description": "Отключени/включение регулировки громоксти колесиком мыши",
+      "message": "Change volume with mouse wheel"
+   },
+   "settings_select_videoquality": {
+      "description": "Выбор качества видео",
+      "message": "Video quality"
+   },
+   "settings_select_videospeed": {
+      "description": "Выбор скорости видео",
+      "message": "Playback speed"
+   },
+   "stop_recording": {
+      "message": "Stop recording"
+   },
+   "switch_back": {
+      "message": "Switch back"
+   },
+   "switch_off": {
+      "message": "Switch off"
+   },
+   "switch_off_regime": {
+      "message": "Switch off"
+   },
+   "switch_on": {
+      "message": "Switch on"
+   },
+   "text_on_bottom": {
+      "message": "Text on bottom"
+   },
+   "text_on_top": {
+      "message": "Text on top"
+   },
+   "title_adv_msg_text": {
+      "message": "Our programmer and designer"
+   },
+   "tooltip_channel_to_black_list": {
+      "description": "Тултип для иконки добавления каналов в черный список",
+      "message": "Not recommend this channel"
+   },
+   "tooltip_delete_video_from_subscription": {
+      "description": "Тултип для удаления видео из подписок",
+      "message": "Delete video from subscriptions"
+   },
+   "tooltip_in_new_window": {
+      "description": "Тултип для иконки открытия видео в новом окне",
+      "message": "New window"
+   },
+   "trending": {
+      "description": "Фраза - набирающие популярность",
+      "message": "Trending"
+   },
+   "word_add": {
+      "message": "Add"
+   },
+   "word_bold": {
+      "message": "Bold"
+   },
+   "word_close": {
+      "message": "Close"
+   },
+   "word_comments": {
+      "description": "Слово - комментарии",
+      "message": "Comments"
+   },
+   "word_copy": {
+      "message": "Copy"
+   },
+   "word_crossed": {
+      "message": "Crossed"
+   },
+   "word_delete": {
+      "message": "Delete"
+   },
+   "word_description": {
+      "description": "Слово - описание",
+      "message": "Description"
+   },
+   "word_design": {
+      "message": "Design"
+   },
+   "word_details": {
+      "description": "Слово - подробней",
+      "message": "details"
+   },
+   "word_export": {
+      "message": "Export"
+   },
+   "word_filter": {
+      "description": "Слово - фильтровать",
+      "message": "Filter"
+   },
+   "word_grid": {
+      "description": "Слово - сетка",
+      "message": "Grid"
+   },
+   "word_hide": {
+      "description": "Слово - скрыть",
+      "message": "Hide"
+   },
+   "word_italic": {
+      "message": "Italic"
+   },
+   "word_list": {
+      "description": "Слово - список",
+      "message": "List"
+   },
+   "word_main": {
+      "description": "Слово - главная",
+      "message": "Main"
+   },
+   "word_no": {
+      "description": "Слово - нет",
+      "message": "Not"
+   },
+   "word_playback": {
+      "description": "Слово - воспроизведение",
+      "message": "Playback"
+   },
+   "word_read": {
+      "description": "Слово - читать",
+      "message": "read"
+   },
+   "word_replace": {
+      "message": "Replace"
+   },
+   "word_seconds": {
+      "description": "Слово - секунд",
+      "message": "seconds"
+   },
+   "word_settings": {
+      "description": "Слово - настройки",
+      "message": "Settings"
+   },
+   "word_show": {
+      "description": "Слово - показать",
+      "message": "show"
+   },
+   "word_stop": {
+      "message": "Stop"
+   },
+   "word_subscription": {
+      "description": "Слово - подписки",
+      "message": "Subscription"
+   },
+   "word_symbols": {
+      "message": "Symbols"
+   },
+   "word_tags": {
+      "description": "Слово - теги",
+      "message": "Tags"
+   },
+   "word_trim": {
+      "message": "Trim"
+   }
+}

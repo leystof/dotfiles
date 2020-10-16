@@ -1,0 +1,651 @@
+﻿<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <link type="text/css" rel="stylesheet" href="css/vendor/bootstrap.css">
+    <link type="text/css" rel="stylesheet" href="css/popup.css">
+    <script src="js/vendor/jquery/jquery.js"></script>
+    <script src="js/vendor/bootstrap/bootstrap.js"></script>
+    <script src="js/common/constant/text.js"></script>
+    <script src="js/common/constant/translation.js"></script>
+    <script src="js/popup/gv_variables.js"></script>
+    <script src="js/popup/functions.js"></script>
+    <script src="js/popup/start_event.js"></script>
+    <script src="js/popup/popup.js"></script>
+</head>
+
+<body>
+    <!--div class="title_panel">
+        <div>
+            <div style="display: inline-block">
+                <img src="img/pictures/gear.png" style="margin-top: -1px;">
+            </div>
+            <div id="panel_title_text" style="display: inline-block; margin-left: 10px;">
+                Настройки
+            </div>
+        </div>
+    </div-->
+
+
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default" style="border-width: 0px;">
+            <div role="tab" id="reproduction_tab_id">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#reproduction_collapse_id" aria-expanded="true" aria-controls="reproduction_collapse_id">
+                    <div class="title">
+                        <span class="fua_translate_text"></span>
+                        <span class="fua_arrow_right">
+                            <img src="img/pictures/arrows/triangle_right.png">
+                        </span>
+                        <span class="fua_arrow_down">
+                            <img src="img/pictures/arrows/triangle_down.png">
+                        </span>
+                    </div>
+                </a>
+            </div>
+            <div id="reproduction_collapse_id" class="panel-collapse collapse" role="tabpanel" aria-labelledby="reproduction_tab_id">
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-advertising-blocked-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="advertising-blocked">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-annotations-blocked-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                        <div class="dropdown" id="dropdown_menu_blocked_annotation_id">
+                            <button id="dropdown_button_blocked_annotation_id" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="dropdown_title"></span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown_button_blocked_annotation_id">
+                                <li>
+                                    <a href="#">
+                                        <label class="checkbox_label">
+                                            <input type="checkbox" class="checkbox_input" id="checkbox-blocked-only-annotations-id">
+                                            <span class="checkbox_label_text"></span>
+                                        </label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <label class="checkbox_label">
+                                            <input type="checkbox" class="checkbox_input" id="checkbox-blocked-only-cards-id">
+                                            <span class="checkbox_label_text"></span>
+                                        </label>
+                                    </a>
+                                </li>
+                                <!--li role="separator" class="divider"></li>
+                                <li>
+                                    <a href="#">
+                                        <label class="checkbox_label">
+                                            <span style="margin-right: 5px">От:</span>
+                                            <select id="select-blocked-annotations-from-id" style="margin: 0px;">
+                                                <option value='0'>0</option>
+                                                <option value='10'>10%</option>
+                                                <option value='20'>20%</option>
+                                                <option value='30'>30%</option>
+                                                <option value='40'>40%</option>
+                                                <option value='50'>50%</option>
+                                                <option value='60'>60%</option>
+                                                <option value='70'>70%</option>
+                                                <option value='80'>80%</option>
+                                                <option value='90'>90%</option>
+                                            </select>
+                                            <span style="margin-left: 5px">времени</span>
+                                        </label>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <label class="checkbox_label">
+                                            <span style="margin-right: 5px">До:</span>
+                                            <select id="select-blocked-annotations-to-id" style="margin: 0px;">
+                                                <option value='10'>10%</option>
+                                                <option value='20'>20%</option>
+                                                <option value='30'>30%</option>
+                                                <option value='40'>40%</option>
+                                                <option value='50'>50%</option>
+                                                <option value='60'>60%</option>
+                                                <option value='70'>70%</option>
+                                                <option value='80'>80%</option>
+                                                <option value='90'>90%</option>
+                                                <option value='100'>100%</option>
+                                            </select>
+                                            <span style="margin-left: 5px">времени</span>
+                                        </label>
+                                    </a>
+                                </li-->
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="annotations-blocked">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-autoplay-blocked-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="autoplay-blocked">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-smartpause-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="smartpause-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-smartscroll-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+
+                        <button type="button" class="btn btn-default btn-xs" id="set_default_scroll_video_position_id" style="display: none;"></button>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="smartscroll-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-wheel-mouse-volume-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="wheel-mouse-volume">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!--div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-design-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="design-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div-->
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-open-new-window-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="open-new-window">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-logo-only-sound-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="only-sound">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-save-time-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="save-time-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-subtitles-translate-toggle-id">
+                            <span class="checkbox_label_text">Авто перевод субтитров</span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="subtitles-translate-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <span>Smart FullScreen</span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <select id="select-smart-fullscreen-id" style="width: 100%; margin: 0px;">
+                            <option value='no'>Нет</option>
+                            <option value='2'>2</option>
+                            <option value='5'>5</option>
+                            <option value='10'>10</option>
+                            <option value='15'>15</option>
+                            <option value='30'>30</option>
+                            <option value='60'>60</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="smartfullscreen-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <span class="select_title_text"></span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <select id="select-videoquality-id" style="width: 100%; margin: 0px;">
+                            <option value='auto'>Auto</option>
+                            <option value='highres'>4320p (8k)</option>
+                            <option value='hd2880'>2880p (5k)</option>
+                            <option value='hd2160'>2160p (4k)</option>
+                            <option value='hd1440'>1440p</option>
+                            <option value='hd1080'>1080p</option>
+                            <option value='hd720'>720p</option>
+                            <option value='large'>480p</option>
+                            <option value='medium'>360p</option>
+                            <option value='small'>240p</option>
+                            <option value='tiny'>144p</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="videoquality">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <span class="select_title_text"></span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <select id="select-speed-id" style="width: 100%; margin: 0px;">
+                            <option value='0.25'>0.25</option>
+                            <option value='0.5'>0.5</option>
+                            <option value='1'>normal</option>
+                            <option value='1.5'>1.5</option>
+                            <option value='2'>2</option>
+                        </select>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="panel panel-default"  style="border-width: 0px;">
+            <div role="tab" id="export_tab_id">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#export_collapse_id" aria-expanded="false" aria-controls="export_collapse_id">
+                    <div class="title"><span class="fua_translate_text"></span><span class="fua_arrow_right"><img src="img/pictures/arrows/triangle_right.png"></span><span class="fua_arrow_down"><img src="img/pictures/arrows/triangle_down.png"></span></div>
+                </a>
+            </div>
+            <div id="export_collapse_id" class="panel-collapse collapse" role="tabpanel" aria-labelledby="export_tab_id">
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-screenshot-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="screenshot-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-gif-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="gif-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+        <div class="panel panel-default"  style="border-width: 0px;">
+            <div role="tab" id="design_tab_id">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#design_collapse_id" aria-expanded="false" aria-controls="design_collapse_id">
+                    <div class="title"><span class="fua_translate_text"></span><span class="fua_arrow_right"><img src="img/pictures/arrows/triangle_right.png"></span><span class="fua_arrow_down"><img src="img/pictures/arrows/triangle_down.png"></span></div>
+                </a>
+            </div>
+            <div id="design_collapse_id" class="panel-collapse collapse" role="tabpanel" aria-labelledby="design_tab_id">
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-gridsearch-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="gridsearch-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="row settings_row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4" style="padding-top: 3px;">
+                        <label class="checkbox_label" style="max-width: 300px !important; width: 200px;">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-logourl-toggle-id">
+                            <span class="checkbox_label_text">YouTube logo URL</span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <!--input id="input-logourl-id" placeholder="" type="text" style="width: 100%; margin: 0px 0px 0px;"-->
+                        <div class="dropdown" id="dropdown_menu_logourl_id">
+                            <button id="dropdown_logourl_button_id" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="dropdown_title"></span>
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdown_logourl_button_id"></ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="logourl">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <div class="panel panel-default"  style="border-width: 0px;">
+            <div role="tab" id="subscriptions_tab_id">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#subscriptions_collapse_id" aria-expanded="false" aria-controls="subscriptions_collapse_id">
+                    <div class="title"><span class="fua_translate_text"></span><span class="fua_arrow_right"><img src="img/pictures/arrows/triangle_right.png"></span><span class="fua_arrow_down"><img src="img/pictures/arrows/triangle_down.png"></span></div>
+                </a>
+            </div>
+            <div id="subscriptions_collapse_id" class="panel-collapse collapse" role="tabpanel" aria-labelledby="subscriptions_tab_id">
+
+
+                <div class="row settings_row" style="margin-top: 10px">
+                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-blackchannels-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
+                        <span id="show_black_channels_id"></span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="blackchannels-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row settings_row">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-blocked-blackchannels-video-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                        <div>
+                            <div id="blocked_video_msg_label_id"></div>
+                            <input type="text" id="blocked_video_msg_input_id">
+                        </div>
+                        <div style="margin-top: 10px;">
+                            <div id="blocked_video_tags_label_id"></div>
+                            <textarea id="blocked_video_tags_id"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="blocked-blackchannels-video">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="row settings_row" style="margin-top: 10px">
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <span>Очищать историю от видео из чс.</span>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <select id="select-frequency-deleting-history-id" style="width: 100%; margin: 0px;">
+                            <option value='0'>Нет</option>
+                            <option value='30'>Раз в пол часа</option>
+                            <option value='60'>Раз в час</option>
+                            <option value='180'>Раз в 3 часа</option>
+                            <option value='360'>Раз в 6 часовов</option>
+                            <option value='1440'>Раз в 24 часа</option>
+                        </select>
+                    </div>
+                </div>
+
+
+
+                <div class="row settings_row" style="display: none; margin-top: 10px;">
+                    <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                        <label class="checkbox_label">
+                            <input type="checkbox" class="checkbox_input" id="checkbox-recommendation-toggle-id">
+                            <span class="checkbox_label_text"></span>
+                        </label>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                        <div class="what_block" what_anchor="recommendation-toggle">
+                            <div style="display: inline-block">
+                                <img src="img/navigation/what_icon.png" class="what_img">
+                            </div>
+                            <div class="what_text" style="display: inline-block;">
+                                подробней
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row" style="padding: 10px; background-color: #f4f2f3;">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="text-align: center; font-weight: bold; color: #337ab7; font-size: small;">
+            <!--span class="developed_by"></span> <span id="fua_personal_link">www.f.ua</span-->
+            <span id="fua_personal_link">
+                <img src="img/pictures/logo_fua.png" style="width: 18px; position: absolute; margin-left: -25px">
+                <span class="fua_translate_text"></span>
+            </span>
+        </div>
+    </div>
+
+</body>
+</html>

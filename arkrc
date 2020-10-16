@@ -1,0 +1,40 @@
+[ExtractDialog]
+DirHistory[$e]=$HOME/Загрузки/,$HOME/Desktop/wealth24/site/src/assets/HTMLEditor/,$HOME/Desktop/wealth24/site/src/,$HOME/Desktop/wealth24/site/src/summernote/,$HOME/webStorm/,$HOME/Downloads/Kotatogram Desktop/,$HOME/Desktop/tgClient/build/,$HOME/Desktop/sticker bot/,$HOME/Desktop/sticker-bot-merchant/src/,$HOME/Downloads/
+
+[KFileDialog Settings]
+Recent Files[$e]=file:$HOME
+Recent URLs[$e]=file:$HOME/Загрузки/
+detailViewIconSize=0
+
+[MainWindow]
+Height 1050=1050
+State=AAAA/wAAAAD9AAAAAAAAAzwAAAOkAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+StatusBar=Disabled
+ToolBarsMovable=Disabled
+Width 1680=1680
+Window-Maximized 1050x1680=true
+splitterSizes=550,274
+
+[Open-with settings]
+CompletionMode=1
+History=
+
+[Recent Files]
+File1[$e]=$HOME/Desktop/sticker bot/sticker-bot.7z
+File2[$e]=$HOME/Загрузки/nicEdit-48659053485ef0d0bb082ed5bc8bd90d.zip
+File3[$e]=$HOME/Загрузки/Продвижение.zip
+File4[$e]=$HOME/Downloads/Kotatogram Desktop/p-diary.7z
+File5[$e]=$HOME/Загрузки/this.zip
+File6[$e]=$HOME/Загрузки/bootstrap-4.5.0-dist.zip
+Name1[$e]=sticker-bot.7z
+Name2[$e]=nicEdit-48659053485ef0d0bb082ed5bc8bd90d.zip
+Name3[$e]=Продвижение.zip
+Name4[$e]=p-diary.7z
+Name5[$e]=this.zip
+Name6[$e]=bootstrap-4.5.0-dist.zip
+
+[Viewer]
+Height 1050=1009
+State=AAAA/wAAAAD9AAAAAAAAAiQAAAPBAAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1680=548

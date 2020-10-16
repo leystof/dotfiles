@@ -1,0 +1,74 @@
+#fua_youtube_modal_background_id{
+    position: fixed;
+    z-index: 2147483000;
+}
+
+
+.fua_youtube_modal_background_left{
+    margin-left: 100vw;
+}
+
+.fua_youtube_modal_background_center{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(173, 173, 173, 0.6);
+    overflow: hidden;
+}
+
+
+#fua_youtube_modal_body_id{
+    max-height: 80vh;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 3px solid rgb(173, 173, 173);
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.fua_youtube_modal_body_left{
+    width: 600px;
+    margin-left: -650px;
+    margin-top: 5vh;
+    position: absolute;
+}
+
+.fua_youtube_modal_body_center{
+    max-width: 90vw;
+    width: 800px;
+    margin: 5vh auto 0vh;
+}
+
+
+#fua_youtube_modal_title_id{
+    width: 100%;
+    white-space: nowrap;
+}
+
+#fua_youtube_modal_title_left_id{
+    max-width: 80%;
+    font-size: 30px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+#fua_youtube_modal_title_right_id{
+    font-weight: bold;
+    overflow: hidden;
+    float: right;
+}
+
+#fua_youtube_modal_close_id{
+    height: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+
+#fua_youtube_modal_content_id{
+    margin-top: 10px;
+    clear: both;
+}

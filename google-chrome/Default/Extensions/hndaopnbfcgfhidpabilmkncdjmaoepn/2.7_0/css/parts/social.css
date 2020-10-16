@@ -1,0 +1,21 @@
+.fua_youtube_social_item{
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 5px 10px 5px;
+    border: 1px solid gray !important;
+    border-radius: 3px;
+    color: #000000;
+    text-decoration: none !important;
+    display: inline-block;
+    cursor: default;
+}
+
+.fua_youtube_social_item[href]{
+    cursor: pointer;
+}
+
+.fua_youtube_social_item[href]:hover{
+    background-color: darkorange;
+    color: #ffffff;
+    text-decoration: none !important;
+}

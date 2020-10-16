@@ -1,0 +1,33 @@
+.content_block{
+    width: 900px;
+    margin: 0px auto 0px;
+}
+
+.title_panel{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.content_row{
+    padding-top: 50px;
+    border-bottom: 1px solid #A7A7A7;
+}
+
+
+.text_sub_block{
+    padding: 0px;
+}
+
+
+.img_sub_block{
+    padding: 0px;
+    text-align: right;
+}
+
+.title_sub_block{
+    margin: 15px 0px 15px;
+    font-size: 20px;
+    font-weight: bold;
+}

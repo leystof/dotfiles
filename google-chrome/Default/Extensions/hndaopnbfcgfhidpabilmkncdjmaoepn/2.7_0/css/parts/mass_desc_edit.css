@@ -1,0 +1,86 @@
+#fua_youtube_mass_description_edit_id{
+    margin-left: 10px;
+    line-height: 28px;
+}
+
+#fua_youtube_md_edit_left_div_id,
+#fua_youtube_md_edit_right_div_id{
+    width: 50%;
+}
+
+#fua_youtube_md_edit_left_div_id{
+    float: left;
+}
+
+#fua_youtube_md_edit_right_div_id{
+    float: right;
+}
+
+
+#fua_youtube_md_edit_select_mod_id,
+#fua_youtube_md_edit_regexp_input_id,
+#fua_youtube_md_edit_text_area_id{
+    width: 250px;
+    margin-top: 10px;
+}
+
+
+#fua_youtube_md_edit_info_id{
+    max-height: 500px;
+    margin-top: 10px;
+    overflow-y: auto;
+}
+
+
+#fua_youtube_md_edit_btn_edit_id,
+#fua_youtube_md_edit_btn_pause_id,
+#fua_youtube_md_edit_btn_continue_id,
+#fua_youtube_md_edit_btn_log_id{
+    min-width: 100px;
+    padding: 5px 10px 5px;
+    border-radius: 3px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.8;
+    overflow: hidden;
+    transition: 1s;
+}
+
+#fua_youtube_md_edit_btn_edit_id,
+#fua_youtube_md_edit_btn_pause_id,
+#fua_youtube_md_edit_btn_continue_id{
+    margin-left: 10px;
+    float: right;
+}
+
+#fua_youtube_md_edit_btn_edit_id{
+    background-color: #1155cc;
+}
+
+#fua_youtube_md_edit_btn_pause_id{
+    background-color: darkorange;
+}
+
+#fua_youtube_md_edit_btn_continue_id{
+    background-color: #008000;
+}
+
+#fua_youtube_md_edit_btn_log_id{
+    float: left;
+    background-color: #3f494f;
+    display: none;
+}
+
+
+#fua_youtube_md_edit_btn_pause_id,
+#fua_youtube_md_edit_btn_continue_id{
+    display: none;
+}
+
+#fua_youtube_md_edit_btn_edit_id:hover,
+#fua_youtube_md_edit_btn_pause_id:hover,
+#fua_youtube_md_edit_btn_continue_id:hover{
+    opacity: 1;
+    transition: 0.5s;
+}

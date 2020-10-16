@@ -1,0 +1,31 @@
+.black_channel{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+.delete_from_black_list{
+    margin: 0px 5px 0px;
+    cursor: pointer;
+}
+
+
+#show_black_channels_id{
+    cursor: pointer;
+}
+
+.hide_channel{
+    display: none;
+}
+
+
+.channel_name{
+    color: #000000;
+}
+
+
+.new_design_black_item{
+    background-color: aliceblue;
+}

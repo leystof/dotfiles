@@ -1,0 +1,100 @@
+.ytp-thumbnail-overlay, .ytp-large-play-button{
+    transition: 1s !important;
+    opacity: 1;
+}
+
+
+.fua_full_screen_player{
+    overflow: hidden;
+}
+
+
+.fua_full_screen_player #player-api,
+.fua_full_screen_player #player-container{
+    left: 0px !important;
+    top: 0px !important;
+    width: 100vw !important;
+    height: 100vh !important;
+    margin: 0px;
+    z-index: 2147483647 !important;
+    position: fixed !important;
+}
+
+.fua_full_screen_player #masthead-positioner,
+.fua_full_screen_player #contentContainer{
+    display: none !important;
+}
+
+.fua_full_screen_player #page-manager{
+    margin-top: 0px !important;
+}
+
+
+.fua_scrolled_video_player #player-container,
+.fua_full_screen_player #player-container{
+    background-color: black;
+}
+
+
+.fua_scrolled_video_player:not(.fua_full_screen_player) #page-container #player-api,
+.fua_scrolled_video_player:not(.fua_full_screen_player) #page-manager #player-container{
+    left: 100vw;
+    top: 100vh;
+    /*width: 400px !important;
+    height: 225px !important;*/
+    width: 400px;
+    height: 225px;
+    margin: -235px 0px 0px -420px;
+    border-radius: 10px !important;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    overflow: hidden !important;
+    position: fixed !important;
+    z-index: 10000;
+}
+
+
+
+.fua_scrolled_video_player:not(.fua_full_screen_player) .ad-container
+.fua_scrolled_video_player:not(.fua_full_screen_player) .adDisplay{
+    display: none !important;
+}
+
+
+.fua_scrolled_video_player .html5-video-container,
+.fua_full_screen_player .html5-video-container{
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute !important;
+}
+
+.fua_scrolled_video_player .html5-main-video,
+.fua_full_screen_player .html5-main-video{
+    left: 0 !important;
+    top: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.fua_scrolled_video_player .ytp-size-button,
+.fua_full_screen_player .ytp-size-button{
+    display: none !important;
+}
+
+.fua_player_unavailable{
+    display: block !important;
+}
+
+
+.fua_scrolled_video_player .video-ads{
+    display: none !important;
+}
+
+
+.fua_scrolled_video_player ytd-page-manager .html5-video-player div.ytp-chrome-bottom{
+    left: 0px !important;
+    width: 100% !important;
+}
+
+.fua_scrolled_video_player ytd-page-manager .html5-video-player div.ytp-chrome-bottom > div.ytp-progress-bar-container{
+    display: none;
+}

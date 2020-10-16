@@ -1,0 +1,9 @@
+# GIMP gimp-pencil-tool options
+
+(brush "2. Hardness 100")
+(dynamics "Dynamics Off")
+(gradient "Aneurism")
+(palette "Color History")
+(brush-size 1)
+
+# end of gimp-pencil-tool options

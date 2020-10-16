@@ -1,0 +1,130 @@
+.fua_tag_length_label{
+    text-align: left;
+}
+
+.fua_tag_length_label > div{
+    width: 16px;
+    margin-left: -5px;
+    background-color: rgb(255, 255, 255);
+    height: 16px;
+    margin-top: -27px;
+    font-size: 8px;
+    line-height: 16px;
+    text-align: center;
+    color: rgb(188, 188, 188);
+    display: inline-block;
+    position: absolute;
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#fua_title_tags_ration,
+#fua_description_tags_ration{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#fua_title_tags_ration:hover,
+#fua_description_tags_ration:hover{
+    text-decoration: none;
+}
+
+.fua_highlighted_text{
+    background-color: orange !important;
+}
+
+.fua_tags_ration_active{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.fua_youtube_place_label > div{
+    width: 16px;
+    margin-left: 14px;
+    background-color: #E2EED8;
+    height: 16px;
+    margin-top: -27px;
+
+    font-size: 8px;
+
+    line-height: 16px;
+    text-align: center;
+    color: rgb(188, 188, 188);
+
+    display: inline-block;
+    position:absolute;
+
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.fua_blogger_button{
+    border-color: #167ac6;
+    background: #167ac6;
+    color: #fff;
+    padding: 0 10px;
+    outline: 0;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    overflow: visible;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+    display: inline-block;
+}
+
+.fua_yandex_label > div{
+    min-width: 16px;
+    margin-left: 33px;
+    margin-top: -27px;
+    padding: 0px 2px 0px;
+    background-color: #FDFBCA;
+
+    font-size: 8px;
+    height: 16px;
+    line-height: 16px;
+
+    text-align: center;
+    color: rgb(188, 188, 188);
+    position: absolute;
+
+    border: 1px solid rgb(188, 188, 188);
+    border-radius: 2px;
+}
+
+
+#fua_copy_all_tags{
+    margin-top: 2px;
+    border-bottom-style: dashed;
+    border-bottom-width:1px;
+    font-size: 11px;
+
+    float: right;
+    margin-right: 20px;
+    color: #167ac6;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#fua_copy_all_tags:hover{
+    border-bottom-width: 0px;
+}
+
+
+#fua_search_tag_hints_box{
+    width: 350px;
+    /*max-height: 400px;*/
+    background-color: #ffffff;
+    border: 1px solid rgb(188, 188, 188);
+    position: absolute;
+    z-index: 3000000000000000000000000000000;
+    /*overflow-y: auto;*/
+    display: none;
+}

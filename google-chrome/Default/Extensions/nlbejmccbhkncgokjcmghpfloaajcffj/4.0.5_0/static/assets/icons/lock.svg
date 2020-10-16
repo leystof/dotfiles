@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>lock</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Configuration" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-334.000000, -522.000000)">
+        <g id="Locked" transform="translate(327.000000, 516.000000)">
+            <g id="lock" transform="translate(7.500000, 6.000000)">
+                <rect id="Rectangle-2" fill="#FFFFFF" x="0" y="5.6" width="13" height="8.4" rx="1"></rect>
+                <rect id="Rectangle-3" stroke="#FFFFFF" stroke-width="2" x="3.88888889" y="1" width="5.22222222" height="7.8" rx="2.61111111"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

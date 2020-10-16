@@ -1,0 +1,2 @@
+var C_VALUE_BROWSER = "chrome";
+var C_VALUE_GRACE_PERIOD = 2592000000;

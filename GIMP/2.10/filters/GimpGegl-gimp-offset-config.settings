@@ -1,0 +1,19 @@
+# settings
+
+(GimpGegl-gimp-offset-config "2020-10-14 00:22:02"
+    (time 1602624122)
+    (type wrap-around)
+    (x -10)
+    (y 20))
+(GimpGegl-gimp-offset-config "2020-10-14 00:20:34"
+    (time 1602624034)
+    (type wrap-around)
+    (x 338)
+    (y 411))
+(GimpGegl-gimp-offset-config "2020-10-14 00:20:16"
+    (time 1602624016)
+    (type wrap-around)
+    (x 0)
+    (y 0))
+
+# end of settings

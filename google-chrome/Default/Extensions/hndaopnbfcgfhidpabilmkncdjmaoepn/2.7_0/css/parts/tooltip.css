@@ -1,0 +1,15 @@
+#fua_yt_tooltip_id{
+    position: absolute;
+    z-index: 2147483647;
+}
+
+.fua_yt_tooltip_div_img{
+    width: 1px;
+    margin: 0px auto 0px;
+}
+
+.fua_yt_tooltip_pointed_img{
+    margin-top: -0px;
+    margin-left: -4px;
+    position: absolute;
+}

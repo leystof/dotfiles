@@ -1,0 +1,603 @@
+.fua-plugin-youtube-annotation-item-title{
+    padding: 5px 5px 2px 5px;
+    background-color: #ffffff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.fua-plugin-youtube-annotation-item-title:hover{
+    background-color: #555;
+    color: #ffffff;
+}
+
+#fua-plugin-youtube_annotation_copy_box{
+    display: none;
+    position: absolute;
+    /*z-index: 2147483647;*/
+    z-index: 2000000000;
+}
+
+
+.fua-plugin-youtube-arrow-block, .fua-plugin-youtube-arrow-block-visited{
+    display: inline-block;
+    float: right;
+}
+
+
+.fua-plugin-youtube-arrow-block{
+    width: 5px;
+    height: 10px;
+    margin-top: 3px;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/img/right_arrow.png');;
+}
+
+
+.fua-plugin-youtube-annotation-item-title-visited{
+    background-color: #555 !important;
+    color: #ffffff !important;
+}
+
+
+.fua-plugin-youtube-annotation-item-title-visited .fua-plugin-youtube-arrow-block{
+    width: 10px;
+    height: 5px;
+    margin-top: 5px;
+    background-image: url('chrome-extension://__MSG_@@extension_id__/img/down_arrow.png');
+}
+
+.fua-plugin-youtube-annotation-item-annotations{
+    background-color: #ebebeb;
+    border: 1px solid #555;
+    display: none;
+}
+
+.fua-plugin-youtube_annotations_to_start,
+.fua-plugin-youtube_annotations_to_end{
+    color: #126db3;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fua-plugin-youtube_annotations_to_start:hover,
+.fua-plugin-youtube_annotations_to_end:hover{
+    text-decoration: none;
+}
+
+
+
+
+#fua-plugin-youtube_video_time_code_icon{
+    margin-top: -20px !important;
+    text-align: center !important;
+    padding: 50px !important;
+}
+
+
+#fua-plugin-youtube_video_tags_panel{
+    display: none;
+}
+
+
+
+#id_our_panel_after_youtube_tags{
+    width: 425px;
+    /*height: 30px;*/
+    margin-top: 5px;
+    /*background-color: #F8F8F8;*/
+    color: #AFAFAF;
+}
+
+#id_our_search_tags_panel{
+    /*min-height: 400px;*/
+    margin-top: 5px;
+}
+
+.fua-plugin-youtube-disable-button,
+.fua-plugin-youtube-no_checkbox_button{
+    background-color: #FCFCFC !important;
+    color: #AFAFAF !important;
+    cursor: default !important;
+}
+
+#fua-plugin-youtube-upload-tags-add-button,
+#fua-plugin-youtube-upload-tags-clear-button{
+    color: aliceblue;
+    cursor: pointer;
+    display: inline-block;
+}
+
+#fua-plugin-youtube-upload-tags-add-button,
+#id_our_yandex_captcha_submit{
+    margin-left: 5px;
+    text-align: center;
+    height: 26px !important;
+    /*margin: 0px !important;*/
+    vertical-align: top;
+    line-height: 26px;
+}
+
+#fua-plugin-youtube-upload-tags-add-button{
+    min-width: 117px;
+}
+
+#id_our_yandex_captcha_submit{
+    min-width: 35px;
+}
+
+#id_our_yandex_captcha_reload{
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#id_our_yandex_captcha_reload:hover{
+    text-decoration: none;
+}
+
+#fua-plugin-youtube-upload-tags-input,
+#fua-plugin-youtube_annotation_video_search_input,
+#id_our_yandex_captcha_input{
+    margin: 0px !important;
+    height: 28px !important;
+    padding: 6px 10px 6px !important;
+    font-size: 13px !important;
+    color: #333;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 1px rgba(0,0,0,.05);
+    border: 1px solid #d3d3d3 !important;
+}
+
+#fua-plugin-youtube-upload-tags-input{
+    width: 344px;
+}
+
+#fua-plugin-youtube_annotation_video_search_input{
+    width: 100%;
+}
+
+#id_our_yandex_captcha_input{
+    width: 170px;
+}
+
+
+
+.fua-plugin-youtube-text-after-youtube-tags{
+    font: 13px Roboto,arial,sans-serif;
+    padding: 6px  10px;
+    color: #666666;
+}
+
+#fua-plugin-youtube-upload-tags-clear-button,
+#fua-plugin-youtube-show_place_in_youtube,
+#id_our_tag_show_ranks_in_yandex_keyword{
+    margin-top: 2px;
+    border-bottom-style: dashed;
+    border-bottom-width:1px;
+    font-size: 11px;
+
+    float: right;
+    margin-right: 20px;
+    color: #167ac6;
+    cursor: pointer;
+}
+
+#fua-plugin-youtube-upload-tags-clear-button{
+    display: none;
+}
+
+#fua-plugin-youtube-upload-tags-clear-button:hover,
+#fua-plugin-youtube-show_place_in_youtube:hover,
+#id_our_tag_show_ranks_in_yandex_keyword:hover{
+    border-bottom-width: 0px;
+}
+
+#fua-plugin-youtube-no-added-tags-box{
+    max-height: 500px;
+    margin-top: 5px;
+    padding: 5px;
+
+    border: 2px solid orange;
+
+    overflow-y: auto;
+    display: none;
+}
+
+.fua-plugin-youtube-no-added-tags-rank-title{
+    color: #AFAFAF;
+    border-bottom: 1px solid #AFAFAF;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.fua-plugin-youtube-no-added-tags-rank-add-all{
+    border-bottom: 1px dashed #126db3;
+    color: #126db3;
+    cursor: pointer;
+}
+
+.fua-plugin-youtube-no-added-tags-rank-add-all:hover{
+    border-bottom: 0px;
+}
+
+.fua-plugin-youtube-no-added-tag{
+    margin: 5px;
+    padding: 3px;
+    background-color: orange;
+
+    display: inline-block;
+}
+
+.fua-plugin-youtube-no-added-tag-not-active{
+    background-color: #F8F8F8 !important;
+    color: #AFAFAF !important;
+    cursor: pointer !important;
+}
+
+.fua-plugin-youtube-no-added-tag-text{
+    max-width: 200px;
+    margin-right: 5px;
+    text-decoration: underline;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.fua-plugin-youtube-no-added-tag-not-active .fua-plugin-youtube-no-added-tag-text{
+    /*cursor: default !important;*/
+    text-decoration: line-through !important;
+}
+
+.fua-plugin-youtube-no-added-tag-text:hover{
+    text-decoration: none;
+}
+
+.fua-plugin-youtube-no-added-tag-disable,
+.fua-plugin-youtube-no-added-tag-enable{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.fua-plugin-youtube-no-added-tag-disable{
+    color: aliceblue;
+}
+
+.fua-plugin-youtube-no-added-tag-enable{
+    color: #AFAFAF;
+    display: none;
+}
+
+.fua-plugin-youtube-round-symbol{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.fua-plugin-youtube-tag-length-label,
+.fua-plugin-youtube-tag-place-in-youtube-label{
+    height: 16px;
+    margin-top: -11px;
+
+    font-size: 8px;
+
+    line-height: 16px;
+    text-align: center;
+    color: rgb(188, 188, 188);
+
+    display: inline-block;
+    position:absolute;
+}
+
+.fua-plugin-youtube-tag-length-label{
+    width: 16px;
+    margin-left: -17px;
+    background-color: rgb(255, 255, 255);
+}
+
+.fua-plugin-youtube-tag-place-in-youtube-label{
+    width: 16px;
+    margin-left: -1px;
+    background-color: #E2EED8;
+}
+
+.fua-plugin-youtube-tag-yandex-rank-label{
+    min-width: 16px;
+    margin-left: 5px;
+    margin-top: 2px;
+    padding: 0px 2px 0px;
+    background-color: #FDFBCA;
+
+    font-size: 8px;
+    height: 16px;
+    line-height: 16px;
+
+    text-align: center;
+    color: rgb(188, 188, 188);
+    position: absolute;
+}
+
+
+
+
+#fua-plugin-youtube-search_progress,
+#fua-plugin-youtube-search-place_progress{
+    overflow: hidden;
+    display: none;
+}
+
+#fua-plugin-youtube-search_progress{
+    width: 470px;
+    padding: 5px 10px 5px;
+    background-color: #F8F8F8;
+}
+
+#fua-plugin-youtube-search-place_progress{
+    width: 405px;
+    /*margin-top: -6px;
+    margin-bottom: -6px;*/
+    /*margin-left: -10px;*/
+    background-color: #F8F8F8;
+}
+
+#fua-plugin-youtube-search_progress_line,
+#fua-plugin-youtube-search-place_progress_line{
+    width: 100%;
+    overflow: hidden;
+}
+
+#fua-plugin-youtube-search_progress_line_inner,
+#fua-plugin-youtube-search-place_progress_line_inner{
+    width: 200%;
+    height: 30px;
+    margin-left: -100%;
+    overflow: hidden;
+}
+
+.fua-plugin-youtube-search-progress-line-parts{
+    width: 50%;
+    height: 30px;
+    display: inline-block;
+    /*background-color: #167ac6;*/
+}
+
+#fua-plugin-youtube-search_progress_percentage,
+#fua-plugin-youtube-search-place_progress_percentage{
+    margin-top: 8px;
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+}
+
+#fua-plugin-youtube-search-place_progress_percentage{
+    margin-top: 7px !important;
+    color: black;
+}
+
+
+.fua-plugin-youtube-search_hint{
+    /*border-bottom: 1px solid grey;*/
+    padding: 5px;
+    color: rgb(188, 188, 188);
+    font-size: small;
+    cursor: pointer;
+}
+
+.fua-plugin-youtube-search_hint:hover{
+    background-color: #EEEEEE;
+}
+
+
+
+#fua-plugin-youtube-search_hints_box{
+    width: 485px;
+    /*max-height: 400px;*/
+    background-color: #ffffff;
+    border: 1px solid rgb(188, 188, 188);
+    position: absolute;
+    z-index: 3000000000000000000000000000000;
+    /*overflow-y: auto;*/
+    display: none;
+}
+
+
+
+
+
+
+
+/*change native css*/
+
+.fua-plugin-youtube-second-fieldset{
+    width: 490px !important;
+}
+
+.fua-plugin-youtube-tag{
+    margin: 5px 5px 5px !important;
+}
+
+.fua-plugin-youtube-tags-box{
+    padding-top: 10px !important;
+}
+
+
+
+
+
+
+.fua_youtube_hidden{
+    display: none;
+}
+
+
+
+
+#fua_meta_auto_translate_select_id{
+    width: 30%;
+    height: 300px;
+    float: right;
+}
+
+#fua_meta_auto_translate_info_id{
+    width: 70%;
+    max-height: 300px;
+    overflow: auto;
+    float: left;
+}
+
+#fua_meta_auto_translate_new_translate_id,
+#fua_meta_auto_translate_save_btn_id{
+    padding: 5px 10px 5px;
+    margin-left: 10px;
+    border-radius: 3px;
+    color: #ffffff;
+    cursor: pointer;
+    opacity: 0.8;
+    overflow: hidden;
+    float: right;
+    transition: 1s;
+}
+
+#fua_meta_auto_translate_new_translate_id{
+    background-color: #056FC3;
+}
+
+#fua_meta_auto_translate_save_btn_id{
+    background-color: #008000;
+}
+
+#fua_meta_auto_translate_new_translate_id:hover,
+#fua_meta_auto_translate_save_btn_id:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+
+.fua_youtube_success_info_line,
+.fua_youtube_finish_info_line,
+.fua_youtube_error_info_line{
+    padding: 5px 10px 5px;
+    font-weight: bold;
+}
+
+
+.fua_youtube_success_info_line{
+    color: #1155cc;
+}
+
+.fua_youtube_finish_info_line{
+    border-bottom: 1px solid #008000;
+    color: #008000;
+}
+
+.fua_youtube_error_info_line{
+    color: red;
+}
+
+#fua_meta_auto_translate_input_key_id{
+    width: 785px;
+    max-width: 85vw;
+    padding: 5px;
+    margin: 10px auto 10px;
+}
+
+#fua_meta_auto_translate_input_key_div_id{
+    font-size: smaller;
+    font-weight: bold;
+}
+
+#fua_meta_auto_translate_button_id{
+    background-color: #167ac6;
+    color: #ffffff;
+}
+
+div#top-level-buttons #fua-plugin-youtube_show_video_tags_button{
+    background-color: inherit;
+    border-width: 0px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 37px;
+}
+
+ytd-page-manager#page-manager #id_our_yandex_captcha_submit{
+    margin-left: 5px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 26px;
+    height: 26px;
+    display: inline-block;
+    border-color: #167ac6;
+    background: #167ac6;
+    color: #fff;
+    border: solid 1px transparent;
+    padding: 0 10px;
+    outline: 0;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    cursor: pointer;
+    border-radius: 2px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+
+
+
+div#inner-header-container #fua-plugin-youtube_show_video_tags_button{
+    margin-left: 10px;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+ytd-two-column-browse-results-renderer > ytd-section-list-renderer#primary #fua-plugin-youtube_video_tags_panel{
+    margin-top: 20px;
+}
+
+
+@keyframes round_move {
+    from {transform: rotate(0deg)}
+    50% {transform: rotate(180deg)}
+    to {transform: rotate(360deg)}
+}
+
+.fua_youtube_loading_img{
+    width: 125px;
+    animation-name: round_move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.fua_youtube_correct_list_item,
+.fua_youtube_wrong_list_item
+{
+    padding: 5px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+}
+
+
+.fua_youtube_correct_list_item{
+    background-color: green;
+}
+
+.fua_youtube_wrong_list_item{
+    background-color: red;
+}
+
+
+[dark="true"] .fua_dark_theme{
+    color: white;
+}

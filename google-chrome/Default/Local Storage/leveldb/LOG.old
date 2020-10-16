@@ -1,0 +1,6 @@
+2020/04/30-12:40:40.757 8d2 Reusing MANIFEST /home/leystof/.config/google-chrome/Default/Local Storage/leveldb/MANIFEST-000001
+2020/04/30-12:40:40.758 8d2 Recovering log #3
+2020/04/30-12:40:40.762 8d2 Reusing old log /home/leystof/.config/google-chrome/Default/Local Storage/leveldb/000003.log 
+2020/04/30-12:45:06.286 a46 Level-0 table #5: started
+2020/04/30-12:45:06.330 a46 Level-0 table #5: 14915 bytes OK
+2020/04/30-12:45:06.363 a46 Delete type=0 #3

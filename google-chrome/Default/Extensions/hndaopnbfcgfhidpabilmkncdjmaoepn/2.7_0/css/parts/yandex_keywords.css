@@ -1,0 +1,15 @@
+#fua_youtube_yandex_kw_h_progress_bar_id{
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+}
+
+#fua_youtube_yandex_kw_h_progress_bar_id .fua_youtube_progress_bar{
+    background-color: orange;
+}
+
+#fua_youtube_yandex_kw_h_progress_bar_id .fua_youtube_progress_label{
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: normal;
+}

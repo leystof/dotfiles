@@ -1,0 +1,65 @@
+#fua_blocker_modal_background_id{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(173, 173, 173, 0.6);
+    position: fixed;
+    overflow: hidden;
+    display: table-row;
+    vertical-align: middle;
+    text-align: center;
+    z-index: 2147483000;
+}
+
+#fua_blocker_modal_background_cell_id{
+    width: 100vw;
+    height: 100vh;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+
+#fua_blocker_modal_body_id{
+    /*width: 800px;
+    max-width: 90vw;
+    max-height: 80vh;*/
+    padding: 10px;
+    background-color: #ffffff;
+    border: 3px solid rgb(173, 173, 173);
+    border-radius: 10px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    display: inline-block;
+}
+
+#fua_blocker_modal_title_id{
+    width: 100%;
+    white-space: nowrap;
+}
+
+#fua_blocker_modal_title_left_id{
+    max-width: 80%;
+    font-size: 30px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+}
+
+#fua_blocker_modal_title_right_id{
+    font-weight: bold;
+    overflow: hidden;
+    float: right;
+}
+
+#fua_blocker_modal_close_id{
+    height: 30px;
+    cursor: pointer;
+    float: right;
+}
+
+
+#fua_blocker_modal_content_id{
+    margin-top: 10px;
+    clear: both;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Icons / Social / Facebook@2x</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Install-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-30.000000, -405.000000)">
+        <g id="Group-8" transform="translate(30.000000, 321.000000)">
+            <g id="Icons-/-Social-/-Facebook" transform="translate(0.000000, 84.000000)">
+                <circle id="Oval" fill="#39589A" cx="16" cy="16" r="16"></circle>
+                <path d="M16.8,14.4 L18.8,14.4 L18.55,16.4 L16.8,16.4 L16.8,22.4 L14.20625,22.4 L14.20625,16.4 L12.8,16.4 L12.8,14.4 L14.20625,14.4 L14.20625,13.05625 C14.20625,12.1812456 14.4249978,11.5197939 14.8625,11.071875 C15.3000022,10.6239561 16.0291616,10.4 17.05,10.4 L18.8,10.4 L18.8,12.4 L17.7375,12.4 C17.3416647,12.4 17.0864589,12.4624994 16.971875,12.5875 C16.8572911,12.7125006 16.8,12.9208319 16.8,13.2125 L16.8,14.4 Z" id="ion-social-facebook---Ionicons" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

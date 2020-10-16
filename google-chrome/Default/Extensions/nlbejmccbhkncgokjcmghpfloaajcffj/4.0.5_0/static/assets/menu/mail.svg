@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="13px" viewBox="0 0 16 13" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>email</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Menu-Drawer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-140.000000, -560.000000)" opacity="1">
+        <path d="M154.4,560 L141.6,560 C140.72,560 140.008,560.73125 140.008,561.625 L140,571.375 C140,572.26875 140.72,573 141.6,573 L154.4,573 C155.28,573 156,572.26875 156,571.375 L156,561.625 C156,560.73125 155.28,560 154.4,560 Z M154.4,563.25 L148,567.3125 L141.6,563.25 L141.6,561.625 L148,565.6875 L154.4,561.625 L154.4,563.25 Z" id="email" fill="#A0AAC3" fill-rule="nonzero"></path>
+    </g>
+</svg>

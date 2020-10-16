@@ -1,0 +1,20 @@
+.fua_youtube_progress_container{
+    height: 40px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.fua_youtube_progress_bar{
+    height: 30px;
+    background-color: #0097c4;
+    text-align: center;
+}
+
+.fua_youtube_progress_label{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    position: static;
+    display: inline-block;
+}

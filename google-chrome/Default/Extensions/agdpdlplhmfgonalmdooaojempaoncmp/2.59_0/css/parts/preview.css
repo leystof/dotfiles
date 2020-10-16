@@ -1,0 +1,17 @@
+#fua_blocker_preview_window_id{
+    top: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.74902) 0px 0px 10px 0px;
+    width: 400px;
+    height: 225px;
+    position: fixed;
+    margin: -235px 0px 0px 20px;
+    border-radius: 10px !important;
+    overflow: hidden !important;
+    z-index: 2147483000;
+}
+
+#fua_blocker_preview_window_img_id{
+    width: 400px;
+    height: 225px;
+}
+

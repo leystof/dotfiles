@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@vue/cli": "^4.3.1",
+    "@vue/cli-init": "^4.5.6",
+    "create-nuxt-app": "^3.3.0"
+  }
+}

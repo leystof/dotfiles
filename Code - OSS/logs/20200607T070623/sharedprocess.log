@@ -1,0 +1,9 @@
+[2020-06-07 07:06:29.633] [sharedprocess] [info] main {"machineId":"869bf6b14172c567969c11a2fb9accf064664943569b8780af68b6fcf797f743","windowId":2}
+[2020-06-07 07:06:29.738] [sharedprocess] [error] [File Watcher (node.js)] Error: ENOENT: no such file or directory, stat '/home/leystof/.config/Code - OSS/User/snippets'
+[2020-06-07 07:07:09.706] [sharedprocess] [info] Starting to clean up unused language packs.
+[2020-06-07 07:07:17.684] [sharedprocess] [info] Installing extension: dbaeumer.vscode-eslint
+[2020-06-07 07:07:19.759] [sharedprocess] [info] Downloaded extension: dbaeumer.vscode-eslint /tmp/9e7dfed4-e280-4124-be33-315c9281a7b9
+[2020-06-07 07:07:19.909] [sharedprocess] [info] Extracted extension to /home/leystof/.vscode-oss/extensions/.dbaeumer.vscode-eslint-2.1.5: dbaeumer.vscode-eslint
+[2020-06-07 07:07:19.910] [sharedprocess] [info] Renamed to /home/leystof/.vscode-oss/extensions/dbaeumer.vscode-eslint-2.1.5
+[2020-06-07 07:07:19.914] [sharedprocess] [info] Installation completed. dbaeumer.vscode-eslint
+[2020-06-07 07:07:19.966] [sharedprocess] [info] Extensions installed successfully: dbaeumer.vscode-eslint

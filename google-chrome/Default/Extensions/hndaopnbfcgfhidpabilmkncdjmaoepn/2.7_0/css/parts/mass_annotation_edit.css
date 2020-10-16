@@ -1,0 +1,55 @@
+#fua_youtube_mass_annotation_first_btn_id{
+    margin-left: 10px;
+    line-height: 28px;
+}
+
+#fua_youtube_mass_annotation_left_div_id,
+#fua_youtube_mass_annotation_right_div_id{
+    width: 50%;
+    display: inline-block;
+}
+
+#fua_youtube_mass_annotation_left_div_id{
+    float: left;
+}
+
+#fua_youtube_mass_annotation_right_div_id{
+    float: right;
+}
+
+
+#fua_youtube_mass_annotation_pattern_box_id{
+
+}
+
+
+#fua_youtube_mass_annotation_info_id{
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+#fua_youtube_mass_annotation_buttons_div_id{
+
+}
+
+
+#fua_youtube_mass_annotation_btn_execute_id{
+    min-width: 100px;
+    padding: 5px 10px 5px;
+    border-radius: 3px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+    opacity: 0.8;
+    overflow: hidden;
+    transition: 1s;
+}
+
+#fua_youtube_mass_annotation_btn_execute_id{
+    margin-left: 10px;
+    float: right;
+}
+
+#fua_youtube_mass_annotation_btn_execute_id{
+    background-color: #1155cc;
+}

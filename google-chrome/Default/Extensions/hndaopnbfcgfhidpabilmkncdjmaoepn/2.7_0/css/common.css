@@ -1,0 +1,18 @@
+.fua-plagin-youtube-three-dots{
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+}
+
+.fua-plugin-youtube-tool-tip{
+    /*padding: 6px;
+    color: #ffffff;
+    font-size: 11px;
+    background-color: black;
+    line-height: normal;*/
+    font-family: Roboto,arial,sans-serif;
+    position: absolute !important;
+    display: none;
+    visibility: hidden;
+}

@@ -1,0 +1,115 @@
+{
+  "layer": "top",
+    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-center": ["tray"],
+    "modules-right": ["pulseaudio", "cpu", "memory", "custom/vpn", "custom/weather" ,"custom/kb", "clock#date", "clock#time"],
+    "height": 25,
+    "sway/window": {
+      "max-length": 50
+    },
+    "clock#time": {
+      "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+    "clock#date": {
+        "interval": 20,
+        "format": "{:%e %b %Y}",
+        "tooltip": false
+    },
+    "tray": {
+      "icon-size": 15,
+      "spacing": 10
+    },
+    
+    "network": {
+      "interface": "wlp0s29f7u7",
+      "format": "{ifname}",
+      "format-wifi": " {essid}",
+      "format-ethernet": " {ifname} ",
+      "format-disconnected": "",
+      "tooltip-format": "{ifname}",
+      "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+      "tooltip-format-ethernet": "eth {ifname} ",
+      "tooltip-format-disconnected": "Disconnected",
+      "max-length": 50
+    },
+    "network": {
+      "interface": "*",
+      "format": "{ifname}",
+      "format-wifi": " {essid}",
+      "format-ethernet": " {ifname} ",
+      "format-disconnected": "",
+      "tooltip-format": "{ifname}",
+      "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
+      "tooltip-format-ethernet": "eth {ifname}",
+      "tooltip-format-disconnected": "Disconnected",
+      "max-length": 50
+    },
+    "idle_inhibitor": {
+      "format": "{icon}",
+      "format-icons": {
+        "activated": "",
+        "deactivated": ""
+      }
+    },
+    "cpu": {
+        "interval": 5,
+        "tooltip": false,
+        "format": "CPU {usage}%",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        }
+    },
+    "memory": {
+        "interval": 5,
+        "tooltip": false,
+        "format": "MEM {}%",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        }
+    },
+    // "pulseaudio": {
+    //   "format": "{icon} {volume}%",
+    //   "format-muted": "",
+    //   "format-icons": {
+    //     "headphones": "",
+    //     "default": ["", ""]
+    //   },
+    //   "scroll-step": 1,
+    //   "on-click": "pavucontrol"
+    // },
+    "battery": {
+      "bat": "BAT0",
+      "interval": 60,
+      "states": {
+        "good": 80,
+        "warning": 50,
+        "critical": 35
+      },
+      "format": "{icon} {capacity}%",
+      "format-icons": ["", ""],
+      "max-length": 25
+    },
+    "custom/kb": {
+       "exec": "~/layout.sh",
+       // Interval set only as a fallback, as the value is updated by signal
+       //"interval": 5,
+       "format": "{}", // Icon: keyboard
+       // Signal sent by Sway key binding (~/.config/sway/key-bindings)
+       "signal": 1, // SIGHUP
+       "tooltip": false
+    }
+}
+// "custom/weather": {
+//         "exec": "python bar_scripts/weather.py",
+//         "interval": 60,
+//         "format": {}
+//     },
+//     "custom/vpn": {
+//         "format": "VPN",
+//         "interval": 5,
+//         "exec": "python bar_scripts/vpn.py",
+//         "return-type": "json"
+//     }
+

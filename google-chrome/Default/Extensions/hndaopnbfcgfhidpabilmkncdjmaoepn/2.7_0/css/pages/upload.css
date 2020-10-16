@@ -1,0 +1,16 @@
+.fua-plugin-youtube-yandex-keywords-label-not-added-tag{
+    margin: 0px 3px 0px;
+    padding: 0px 2px 0px;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+
+.fua-plugin-youtube-like-link{
+    color: #056FC3;
+    cursor: pointer;
+}
+
+.fua-plugin-youtube-like-link:hover{
+    text-decoration: underline;
+}

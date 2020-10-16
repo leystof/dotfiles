@@ -1,0 +1,19 @@
+#fua_blocker_tooltip_id{
+    position: absolute;
+    z-index: 2147483647;
+}
+
+.fua_blocker_tooltip_div_img{
+    width: 1px;
+    margin: 0px auto 0px;
+}
+
+.fua_blocker_tooltip_pointed_img{
+    margin-top: -0px;
+    margin-left: -4px;
+    position: absolute;
+}
+
+#app_tooltip_id{
+    display: none;
+}

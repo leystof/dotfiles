@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>info</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Dashboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-151.000000, -875.000000)" opacity="1">
+        <path d="M157.75,888.5 C154.022078,888.5 151,885.477922 151,881.75 C151,878.022078 154.022078,875 157.75,875 C161.477922,875 164.5,878.022078 164.5,881.75 C164.5,885.477922 161.477922,888.5 157.75,888.5 Z M157.75,879.5 C158.164214,879.5 158.5,879.164214 158.5,878.75 C158.5,878.335786 158.164214,878 157.75,878 C157.335786,878 157,878.335786 157,878.75 C157,879.164214 157.335786,879.5 157.75,879.5 Z M157,880.964478 L157,885.464478 L158.5,885.464478 L158.5,880.964478 L157,880.964478 Z" id="info" fill="#A0AAC3"></path>
+    </g>
+</svg>

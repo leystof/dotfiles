@@ -1,0 +1,701 @@
+{
+   "add_our_channel_first_hint": {
+      "description": "початкова підказка вказує на який пункт меню натиснути для виведення панелі додавання каналів",
+      "message": "Потрібен \"Clever для Youtube\" безкоштовно? - натисніть на зазначений пункт меню і додайте один із запропонованих каналів в розділ"
+   },
+   "add_our_channel_panel_title": {
+      "description": "заголовок панелі додавання каналів, з пропозицією додати наш канал",
+      "message": "Потрібен \"Clever для Youtube\" безкоштовно? розмістіть один з цих каналів в розділ"
+   },
+   "add_time_code": {
+      "description": "Пункт в контекстному меню, і тултип при наведенні на іконку годин відео",
+      "message": "Додати Time-code"
+   },
+   "added_in_playlists": {
+      "message": "Додано у плелисти"
+   },
+   "adding_tags_placeholder": {
+      "message": "При додаванні, теги пишуться через кому (тег1, тег2...)"
+   },
+   "all_comments": {
+      "message": "Всі коментарі"
+   },
+   "all_video_beta_version_warning": {
+      "message": "Нагадуємо ця функція знаходиться у бето-версії (Можуть виникати непередбачені помилки). Ви точно хочете застосувати зміни до всіх своїм відео?"
+   },
+   "all_your_videos_selected": {
+      "message": "Вибрані всі ваші відео"
+   },
+   "alpha_version": {
+      "message": "Альфа версія"
+   },
+   "and_text": {
+      "message": "та текстом"
+   },
+   "annotation_has_been_added_and_published_for": {
+      "message": "Анотації додані і опубліковані у"
+   },
+   "annotation_successful_added_for": {
+      "message": "Анотації успішно додані"
+   },
+   "annotations_has_been_deleted_for": {
+      "message": "Анотації успішно видалені"
+   },
+   "application_description": {
+      "description": "Опис програми",
+      "message": "Підбір ключових слів. Автоматизація тайм коду. Шаблони, копіювання підказок і анотаці. Розширена статистика."
+   },
+   "application_title": {
+      "description": "Назва додаток",
+      "message": "«Clever» для Youtube — прискорить роботу блогера"
+   },
+   "authorization_in_yandex_direct": {
+      "message": "Авторизація в яндекс директ"
+   },
+   "auto_translate_of_title_and_description": {
+      "message": "Автопереклад назви і опису"
+   },
+   "because_this_video_does_not_include_the_pointed_annotations": {
+      "message": "так як немає зазначених анотацій в даному відео"
+   },
+   "because_video_includes_annotation_which_has_id": {
+      "message": "так як в даному відео існує анотація із зазначеним id"
+   },
+   "but_text_of_deleting_pattern": {
+      "message": "але текст у шаблоні видалення"
+   },
+   "by_phrase": {
+      "message": "По фразі"
+   },
+   "by_user_name": {
+      "message": "По імені користувача"
+   },
+   "captcha_verify_success": {
+      "description": "текст успішної перевірки каптчі",
+      "message": "Каптча успішно перевірена"
+   },
+   "captions_not_exist": {
+      "message": "Немає субтитрів"
+   },
+   "cards_not_exist": {
+      "message": "Немає підказок"
+   },
+   "channel_not_determined": {
+      "message": "Канал не визначено"
+   },
+   "check_list": {
+      "message": "Чек лист"
+   },
+   "choose_what_you_want_to_change": {
+      "message": "Не вибрано, що ви хочете редагувати"
+   },
+   "collecting_of_all_your_videos_is_continuing": {
+      "message": "Йде збір всіх відео"
+   },
+   "comments": {
+      "message": "коментарів"
+   },
+   "common_data": {
+      "message": "Загальні дані"
+   },
+   "completed_cards_patterns_description": {
+      "description": "Опис пункту меню для копіювання підказок з сохранненых шаблонів",
+      "message": "Додати збережену раніше підказку"
+   },
+   "completed_cards_patterns_title": {
+      "description": "Назви пункту меню для копіювання підказок з сохранненых шаблонів",
+      "message": "Готові з шаблону"
+   },
+   "completing_pattern": {
+      "description": "Пункт меню в анотаціях, для відкриття списку готових шаблонів",
+      "message": "Готовий шаблон"
+   },
+   "continua_reloading_captcha": {
+      "description": "текст при перезавантаженні каптчі",
+      "message": "перезавантаження каптчі"
+   },
+   "continua_verify_captcha": {
+      "description": "текст під час перевірки каптчі",
+      "message": "Йде перевірка каптчі"
+   },
+   "copy_all": {
+      "message": "Копіювати всі"
+   },
+   "copy_all_tags": {
+      "description": "Кнопка копіювати всі теги",
+      "message": "Копіювати всі"
+   },
+   "copy_annotation_from": {
+      "description": "Пункт в меню анотацій, для відкриття блоку з пошуком відео",
+      "message": "Копіювати з"
+   },
+   "copy_cards_from_description": {
+      "description": "Опис пункту меню для копіювання підказок з відео",
+      "message": "Додати підказку з вашого відео"
+   },
+   "copy_cards_from_title": {
+      "description": "Назви пункту меню для копіювання підказок з відео",
+      "message": "Копіювати з відео"
+   },
+   "copy_selected": {
+      "message": "Копіювати вибрані"
+   },
+   "copy_selected_tags": {
+      "description": "Кнопка копіювати вибрані теги",
+      "message": "Копіювати вибрані"
+   },
+   "could_not_connect_to_server": {
+      "message": "Не вдалось з'єднатись з сервером"
+   },
+   "description_not_exists": {
+      "message": "Немає опису"
+   },
+   "edit_meta_data": {
+      "message": "Редагування мета-даних"
+   },
+   "endscreens_not_exist": {
+      "message": "Немає кінцевих затавок"
+   },
+   "engagement_rate": {
+      "message": "Коеф-т залученості"
+   },
+   "error_occurred": {
+      "message": "Сталася помилка"
+   },
+   "final_variant": {
+      "message": "Кінцевий варіанат"
+   },
+   "for_example": {
+      "message": "приклад"
+   },
+   "for_video": {
+      "message": "Для відео"
+   },
+   "form_start_2": {
+      "message": "від початку"
+   },
+   "found_nothing": {
+      "description": "Фраза якщо нічого не знайдено",
+      "message": "Нічого не знайденно"
+   },
+   "from_end": {
+      "description": "Кнопка для вставки анотацій або підказок від кінця відео",
+      "message": "від кінця"
+   },
+   "from_start": {
+      "description": "Кнопка для вставки анотацій або підказок від початку відео",
+      "message": "початку"
+   },
+   "google_trends": {
+      "description": "назва категорії",
+      "message": "Google тренди"
+   },
+   "has_been_updated_during": {
+      "message": "оновлено за"
+   },
+   "has_not_been_updated": {
+      "message": "не оновлено"
+   },
+   "hash_tags_in_description": {
+      "message": "Хештегів в описі"
+   },
+   "hide_tags": {
+      "description": "Кнопка приховати теги",
+      "message": "Приховати теги"
+   },
+   "i_not_replied": {
+      "message": "Я не відповів"
+   },
+   "i_replied": {
+      "message": "Я відповів"
+   },
+   "id_of_current_channel_has_not_been_found": {
+      "message": "Не можливо знайти ID поточного каналу"
+   },
+   "initial_variant": {
+      "message": "Початковий варіант"
+   },
+   "insert_count_time": {
+      "description": "Текс при вставці анотацій або підказок",
+      "message": "Вставити рахуючи час від"
+   },
+   "insert_into_beginning": {
+      "message": "Вставити в початок"
+   },
+   "insert_into_end": {
+      "message": "Вставити в кінець"
+   },
+   "insert_regular_expression": {
+      "message": "Вставити регулярний вираз"
+   },
+   "insert_yandex_api_key_description": {
+      "message": "Вставте правильний ключ API в поле та натисніть клавішу ENTER. Що б отримати ключ перейдіть по посиланню"
+   },
+   "insert_your": {
+      "message": "Вставте ваш"
+   },
+   "is_different_from_text_of_annotation_with_same_id_in_video": {
+      "message": "відрізняється від тексту з такимже id відео"
+   },
+   "is_longer_than": {
+      "message": "довше"
+   },
+   "is_shorter_than": {
+      "message": "корочше"
+   },
+   "it_will_trim_end": {
+      "message": "тому воно буде обріхано у кінці"
+   },
+   "length_of_description_more_than": {
+      "message": "довжина опису більше"
+   },
+   "length_of_title_more_than": {
+      "message": "довжина назви більше"
+   },
+   "log_deprecated_reload_page": {
+      "message": "Лог застарів перезавантажте сторінку"
+   },
+   "log_has_not_been_created": {
+      "message": "Лог поки не створено!"
+   },
+   "log_of_last_mass_update_of_meta_data": {
+      "message": "Лог останнього массовго оновлення мета-даних"
+   },
+   "mass_editing_of_annotations": {
+      "message": "Масове редагування анотацій"
+   },
+   "meta_data_has_been_recovered_for": {
+      "message": "Мета-дані були відновлені у"
+   },
+   "meta_data_has_been_updated_for": {
+      "message": "Мета дані оновлені"
+   },
+   "min_quantity_of_likes": {
+      "message": "Мінімальна кількість лайків"
+   },
+   "min_quantity_of_subscribers": {
+      "message": "Мінімальна кількість підписчиків"
+   },
+   "monetization_switched_off": {
+      "message": "Монетизація відключена"
+   },
+   "most_popular_comments": {
+      "message": "найпопулярніших коментарів"
+   },
+   "no_added_in_playlist": {
+      "message": "Не додано у плелист"
+   },
+   "no_authorized_in": {
+      "message": "Не авторизовані у"
+   },
+   "no_changes": {
+      "message": "Немає змін"
+   },
+   "no_shared_on": {
+      "message": "Не поділилися у"
+   },
+   "no_translate": {
+      "message": "Не прекладати"
+   },
+   "not_selected_pattens": {
+      "message": "Не вибрано жодного шаблону."
+   },
+   "not_selected_videos": {
+      "message": "Не вибрано жодного відео."
+   },
+   "operation_has_been_finished_updated": {
+      "message": "Операція завершена, оновлено"
+   },
+   "parsed_videos": {
+      "message": "Оброблені відео"
+   },
+   "pinned_comment": {
+      "message": "Клментар закріплен"
+   },
+   "pinned_comment_consists_link": {
+      "message": "Посилання в закріпленому коментарі"
+   },
+   "pinned_comment_not_belongs_to_channel_owner": {
+      "message": "Немає закріпленого коментаря власника каналу"
+   },
+   "pinned_comment_not_consists_link": {
+      "message": "Нет ссылки в закрепленном комментарии"
+   },
+   "pinned_comment_not_exists": {
+      "message": "Немає закріпленого коментаря"
+   },
+   "place_in_youtube_search": {
+      "description": "Опису до кнопки пошуку місця відео в пошуку ютуба при введенні тегів в якості пошукових слів",
+      "message": "Місце в пошуку Youtube"
+   },
+   "planned_languages": {
+      "message": "запланованих мов"
+   },
+   "ranks_in_yandex_keywords": {
+      "description": "Опису до кнопки пошуку ретига тегів в яндекс ключові слова",
+      "message": "Рейтинг в Yandex Keywords"
+   },
+   "recovering_last_log": {
+      "message": "Відновлення останнього лога"
+   },
+   "regular_expression": {
+      "message": "Регулярний вираз"
+   },
+   "regular_expression_characters_warning": {
+      "message": "Ви намагаєтеся використовувати один із спец. символів регулярного виразу: . * + ? \\n \\s \\w \\N \\S \\W Якщо ви не знайомі з регулярними виразами краще натисніть \"СКАСУВАТИ\", в ім'я уникнення непередбачених результатів"
+   },
+   "regular_expression_for_replacing_does_not_exist": {
+      "message": "Немає регулярного виразу для заміни"
+   },
+   "regular_expression_or_text": {
+      "message": "Регулярний вираз або текст"
+   },
+   "reload_captcha": {
+      "description": "кнопка для презагрузки каптчі",
+      "message": "Показати іншу картинку"
+   },
+   "replace_all": {
+      "message": "Повністю поміняти"
+   },
+   "replies_of_the_video_author_to_comments": {
+      "message": "Відповідей автора відео на коментарі"
+   },
+   "replies_of_the_video_author_to_most_popular_comments": {
+      "message": "Відповідей автора відео на найпопулярніші коментарі"
+   },
+   "save_annotation": {
+      "description": "Кнопка зберегти анотацію",
+      "message": "Зберегти анотацію"
+   },
+   "saving_error": {
+      "message": "Помилка при збереженні"
+   },
+   "search_annotation_placeholder": {
+      "description": "Плэйсхолдер в поле для пошуку відео з анотаціями або з підказками",
+      "message": "Введіть назву, ID або URL відео"
+   },
+   "search_tags_input_placeholder": {
+      "description": "Плэйсхолдер в поле для пошуку тегів",
+      "message": "Вкажіть тему тегів"
+   },
+   "shared_on": {
+      "message": "Поділилися у"
+   },
+   "show_tags": {
+      "description": "Кнопка показати теги",
+      "message": "Показати теги"
+   },
+   "successfully_saved": {
+      "message": "успішно збережено"
+   },
+   "successfully_translated_at": {
+      "message": "успішно перекладено на"
+   },
+   "tags_copied_yet": {
+      "description": "Нажпись, коли теги вже скопійовані",
+      "message": "У буфері"
+   },
+   "tags_have_been_copied_in_clipboard": {
+      "message": "Теги скопійовані в буфер обміну"
+   },
+   "tags_in_description": {
+      "message": "Тегів в описі"
+   },
+   "tags_in_title": {
+      "message": "Тегів у назві"
+   },
+   "tags_not_exist": {
+      "message": "Немає тегів"
+   },
+   "tags_popularity": {
+      "description": "текст у загловке подблока в блоці знайдених тегів",
+      "message": "Популярність тегів"
+   },
+   "text_for_adding_does_not_exist": {
+      "message": "Немає тексту для додавання"
+   },
+   "text_for_adding_or_replacing": {
+      "message": "Текст для заміни або додавання"
+   },
+   "text_of_update": {
+      "message": "Текс для оновлення"
+   },
+   "the_operation_has_not_finished_updated": {
+      "message": "Операція повністю не була завершена. Опрацьовано"
+   },
+   "the_other_tab_is_in_the_process_of_mass_update_meta_data_try_again_later": {
+      "message": "На іншій вкладці йде процес масового оновлення мета-даних, спробуйте пізніше"
+   },
+   "this_channel_tags_category_title": {
+      "description": "Назва категорії для того поточного каналу",
+      "message": "Теги цього каналу"
+   },
+   "this_video_tags_category_title": {
+      "description": "Назва категорії для того поточного відео",
+      "message": "Теги цього відео"
+   },
+   "thumbnail_size": {
+      "message": "Розмір thumbnail"
+   },
+   "to_add_annotations": {
+      "message": "для додавання анотацій"
+   },
+   "to_delete_the_annotations": {
+      "message": "для видалення анотацій (Ймовірно на даному відео включені кінцеві заставки)"
+   },
+   "to_get_the_information_about_the_video": {
+      "message": "для отримання даних для відео"
+   },
+   "to_public_the_added_annotations": {
+      "message": "для публікації доданих анотацій"
+   },
+   "to_save_updated_meta_data": {
+      "message": "дя збереження оновлених мета-даних"
+   },
+   "to_update_the_list_of_the_published_annotations": {
+      "message": "для оновлення списку опублікованих анотацій"
+   },
+   "tooltip_save_in_pattern": {
+      "description": "тултип іконки для збереження картки",
+      "message": "Зберегти шаблон"
+   },
+   "translated_by_yandex_translator": {
+      "message": "«Переведено сервісом «Яндекс.Перекладач»"
+   },
+   "translated_to": {
+      "message": "Преведено на"
+   },
+   "translated_to_all_planned_languages": {
+      "message": "Преведено на всі заплановані мови"
+   },
+   "translating_completed": {
+      "message": "Переклад завершено"
+   },
+   "translation_to": {
+      "message": "Переклад"
+   },
+   "translations_are_saving_wait": {
+      "message": "Переклади зберігаються, почекайте"
+   },
+   "type_of_update": {
+      "message": "Тип оновлення"
+   },
+   "unknown_error_occurred": {
+      "message": "Сталася невідома помилка"
+   },
+   "unknown_saving_error": {
+      "message": "Не відома помилка при збереженні"
+   },
+   "updated_successfully": {
+      "message": "Оновлено успішно"
+   },
+   "updating_continue": {
+      "message": "Оновлення продовжено"
+   },
+   "updating_has_started": {
+      "message": "Розпочато процес оновлення"
+   },
+   "updating_of_meta_data_has_been_stopped": {
+      "message": "Оновлення мета-даних зупинено"
+   },
+   "videos_have_not_been_found": {
+      "message": "Не знайдено не одного відео"
+   },
+   "videos_have_not_been_selected": {
+      "message": "Не вибрано жодного відео"
+   },
+   "wait_until_the_link_to_the_video_appears": {
+      "message": "Зачекайте доки з'явиться посилання на відео"
+   },
+   "when_attempting_to_connect_to_the_server": {
+      "message": "при спробі зв'язатися з сервером"
+   },
+   "while_adding_of_annotations": {
+      "message": "при додаванні анотацій"
+   },
+   "while_attempting_to_get_the_information_about_annotations_from_server": {
+      "message": "при спробі отримати дані про анотації з сервера"
+   },
+   "while_attempting_to_get_the_information_about_the_video": {
+      "message": "при спробі отримати інформацію про відео"
+   },
+   "while_deleting_the_annotations": {
+      "message": "при видаленні анотацій"
+   },
+   "while_publishing_the_added_annotations": {
+      "message": "при публікації доданих анотацій"
+   },
+   "while_translating": {
+      "message": "При перекладі"
+   },
+   "while_updating_the_list_of_the_published_annotations": {
+      "message": "при оновленні списку опублікованих анотацій"
+   },
+   "will_not_save_because": {
+      "message": "не буде збережений, так як"
+   },
+   "with_answer": {
+      "message": "З відповіддю"
+   },
+   "without_answer": {
+      "message": "Без відповіді"
+   },
+   "word_add": {
+      "description": "слово - додати",
+      "message": "Додати"
+   },
+   "word_all": {
+      "description": "слово - все",
+      "message": "всі"
+   },
+   "word_captions": {
+      "message": "Субтитри"
+   },
+   "word_cards": {
+      "message": "Підказки"
+   },
+   "word_channel": {
+      "message": "Канал"
+   },
+   "word_characters": {
+      "message": "символів"
+   },
+   "word_clear": {
+      "description": "слово - очистити",
+      "message": "Очистити"
+   },
+   "word_continue": {
+      "message": "Продовжити"
+   },
+   "word_copy": {
+      "description": "слово - Копіювати",
+      "message": "Копіювати"
+   },
+   "word_delete": {
+      "message": "Видалити"
+   },
+   "word_description": {
+      "message": "Опис"
+   },
+   "word_double_tags": {
+      "description": "слово - ДаблТеги",
+      "message": "ДаблТеги"
+   },
+   "word_during": {
+      "message": "за"
+   },
+   "word_edit": {
+      "message": "Редагувати"
+   },
+   "word_endscreens": {
+      "message": "Кінцеві заставки"
+   },
+   "word_execute": {
+      "message": "Виконати"
+   },
+   "word_filtrate": {
+      "message": "Фільтрувати"
+   },
+   "word_from": {
+      "message": "з"
+   },
+   "word_hints": {
+      "description": "слово - підказки",
+      "message": "Підказки"
+   },
+   "word_insert": {
+      "message": "Вставити"
+   },
+   "word_key": {
+      "message": "Ключ"
+   },
+   "word_left": {
+      "description": "слово - залишилося",
+      "message": "Залишилося"
+   },
+   "word_monetization": {
+      "message": "Монетизація"
+   },
+   "word_on_to": {
+      "message": "на"
+   },
+   "word_or": {
+      "description": "слово - або",
+      "message": "або"
+   },
+   "word_private": {
+      "message": "Приватне"
+   },
+   "word_public": {
+      "message": "Публічне"
+   },
+   "word_recover": {
+      "message": "Встановити"
+   },
+   "word_registration": {
+      "message": "Реєстрація"
+   },
+   "word_repeat": {
+      "message": "Повторить"
+   },
+   "word_replace": {
+      "message": "Замінити"
+   },
+   "word_save": {
+      "message": "Зберегти"
+   },
+   "word_search": {
+      "description": "слово - знайти",
+      "message": "Знайти"
+   },
+   "word_seconds": {
+      "message": "секунди"
+   },
+   "word_show": {
+      "description": "слово - показати",
+      "message": "Показати"
+   },
+   "word_stop": {
+      "message": "Стоп"
+   },
+   "word_symbols": {
+      "description": "слово - символів",
+      "message": "символів"
+   },
+   "word_tags": {
+      "description": "слово - теги",
+      "message": "Теги"
+   },
+   "word_title": {
+      "message": "Назва"
+   },
+   "word_translate": {
+      "message": "Перевести"
+   },
+   "word_video": {
+      "message": "Відео"
+   },
+   "word_volume": {
+      "description": "слово - обсяг",
+      "message": "обсяг"
+   },
+   "word_yandex": {
+      "description": "слово - Яндекс",
+      "message": "Яндекс"
+   },
+   "word_youtube": {
+      "description": "слово - Youtube",
+      "message": "Youtube"
+   },
+   "yandex_keywords_title": {
+      "description": "назва категорії",
+      "message": "Яндекс ключові слова"
+   },
+   "yendex_keyword_volume": {
+      "description": "назву для кількості запитів Яндекс",
+      "message": "як часто шукали"
+   },
+   "you_need_api_key": {
+      "message": "Потрібен ключ API"
+   }
+}

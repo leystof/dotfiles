@@ -1,0 +1,698 @@
+{
+   "add_our_channel_first_hint": {
+      "description": "начальная подсказка указывающая на какой пункт меню нажать для вывода панели добавления каналов",
+      "message": "Do you need \"Clever for Youtube\" for free? - click by pointed item of menu and add one of offering channels to the section"
+   },
+   "add_our_channel_panel_title": {
+      "description": "заголовок панели добавления каналов, с предложением добавить наш канал",
+      "message": "Do you need \"Clever for Youtube\" for free? - add one of this channels to the section"
+   },
+   "add_time_code": {
+      "description": "Пункт в контекстном меню, и тултип при наведении на иконку часов в видео",
+      "message": "Add Time-code"
+   },
+   "added_in_playlists": {
+      "message": "Added in playlists"
+   },
+   "adding_tags_placeholder": {
+      "message": "Add tags separated by comma (tag1, tag2...)"
+   },
+   "all_comments": {
+      "message": "All comments"
+   },
+   "all_video_beta_version_warning": {
+      "message": "We remind you that the function is in beta-version (There may be unforeseen errors). Are you sure you want to apply the changes to all of your videos?"
+   },
+   "all_your_videos_selected": {
+      "message": "All your videos selected"
+   },
+   "alpha_version": {
+      "message": "Alpha version"
+   },
+   "and_text": {
+      "message": "and text"
+   },
+   "annotation_has_been_added_and_published_for": {
+      "message": "The annotation has been added and published for"
+   },
+   "annotation_has_been_deleted_for": {
+      "message": "The annotations has been deleted for"
+   },
+   "annotation_successful_added_for": {
+      "message": "The annotation has been successful added for"
+   },
+   "application_description": {
+      "description": "Описание приложения",
+      "message": "Keyword selection. Templates of annotations and cards and copying them from another videos. Extended Statistics."
+   },
+   "application_title": {
+      "description": "Название приложение",
+      "message": "«Clever» for Youtube — speed up bloggers"
+   },
+   "authorization_in_yandex_direct": {
+      "message": "Authorization in Yandex Direct"
+   },
+   "auto_translate_of_title_and_description": {
+      "message": "Auto translate of title and description"
+   },
+   "because_this_video_does_not_include_the_pointed_annotations": {
+      "message": "because this video does not_include the target annotations"
+   },
+   "because_video_includes_annotation_which_has_id": {
+      "message": "because the video includes annotation, which has id"
+   },
+   "but_text_of_deleting_pattern": {
+      "message": "but text of deleting pattern"
+   },
+   "by_phrase": {
+      "message": "By phrase"
+   },
+   "by_user_name": {
+      "message": "By user name"
+   },
+   "captcha_verify_success": {
+      "description": "текст при успешной проверки каптчи",
+      "message": "Captcha has been successfully verified"
+   },
+   "captions_not_exist": {
+      "message": "Captions not exist"
+   },
+   "cards_not_exist": {
+      "message": "Cards not exist"
+   },
+   "channel_not_determined": {
+      "message": "Channel not determined"
+   },
+   "check_list": {
+      "message": "Check list"
+   },
+   "choose_what_you_want_to_change": {
+      "message": "Choose what you want to change"
+   },
+   "collecting_of_all_your_videos_is_continuing": {
+      "message": "collecting of all your videos is continuing"
+   },
+   "comments": {
+      "message": "comments"
+   },
+   "common_data": {
+      "message": "Common data"
+   },
+   "completed_cards_patterns_description": {
+      "description": "Описание пункта меню для копирования подсказок из сохранненых шаблонов",
+      "message": "Add saved cards"
+   },
+   "completed_cards_patterns_title": {
+      "description": "Названия пункта меню для копирования подсказок из сохранненых шаблонов",
+      "message": "From template"
+   },
+   "completing_pattern": {
+      "description": "Пункт меню в аннотациях, для открытия списка готовых шаблонов",
+      "message": "Completing template"
+   },
+   "continua_reloading_captcha": {
+      "description": "текст при перезагрузке каптчи",
+      "message": "Captcha is reloading"
+   },
+   "continua_verify_captcha": {
+      "description": "текст при проверки каптчи",
+      "message": "Captcha is verifying"
+   },
+   "copy_all": {
+      "message": "Copy all"
+   },
+   "copy_all_tags": {
+      "description": "Кнопка копировать все теги",
+      "message": "Copy all"
+   },
+   "copy_annotation_from": {
+      "description": "Пункт в меню аннотаций, для открытия блока с поиском видео",
+      "message": "Copy from"
+   },
+   "copy_cards_from_description": {
+      "description": "Описание пункта меню для копирования подсказок из видео",
+      "message": "Add cards from your video"
+   },
+   "copy_cards_from_title": {
+      "description": "Названия пункта меню для копирования подсказок из видео",
+      "message": "Copy from video"
+   },
+   "copy_selected": {
+      "message": "Copy selected"
+   },
+   "copy_selected_tags": {
+      "description": "Кнопка копировать выбранные теги",
+      "message": "Cope selected"
+   },
+   "could_not_connect_to_server": {
+      "message": "Could not connect to server"
+   },
+   "description_not_exists": {
+      "message": "Description not exists"
+   },
+   "edit_meta_data": {
+      "message": "Edit meta-data"
+   },
+   "endscreens_not_exist": {
+      "message": "Endscreens not exist"
+   },
+   "engagement_rate": {
+      "message": "Engagement rate"
+   },
+   "error_occurred": {
+      "message": "The error occurred"
+   },
+   "final_variant": {
+      "message": "Final variant"
+   },
+   "for_example": {
+      "message": "For example"
+   },
+   "for_video": {
+      "message": "For video"
+   },
+   "form_start_2": {
+      "message": "from start"
+   },
+   "found_nothing": {
+      "description": "Фраза если ничего не найдено",
+      "message": "Nothing"
+   },
+   "from_end": {
+      "description": "Кнопка для вставки аннотаций или подсказок от конца видео",
+      "message": "from end"
+   },
+   "from_start": {
+      "description": "Кнопка для вставки аннотаций или подсказок от начала видео",
+      "message": "from start"
+   },
+   "google_trends": {
+      "description": "название категории",
+      "message": "Google trends"
+   },
+   "has_been_updated_during": {
+      "message": "has been updated during"
+   },
+   "has_not_been_updated": {
+      "message": "has not been updated"
+   },
+   "hash_tags_in_description": {
+      "message": "Hash tags in description"
+   },
+   "hide_tags": {
+      "description": "Кнопка скрыть тэги",
+      "message": "Hide tags"
+   },
+   "i_not_replied": {
+      "message": "I not replied"
+   },
+   "i_replied": {
+      "message": "I replied"
+   },
+   "id_of_current_channel_has_not_been_found": {
+      "message": "The id of current channel has not been found"
+   },
+   "initial_variant": {
+      "message": "Initial variant"
+   },
+   "insert_count_time": {
+      "description": "Текс при вставке аннотаций или подсказок",
+      "message": "Insert, considering time"
+   },
+   "insert_into_beginning": {
+      "message": "Insert into beginning"
+   },
+   "insert_into_end": {
+      "message": "Insert into end"
+   },
+   "insert_regular_expression": {
+      "message": "Insert regular expression"
+   },
+   "insert_yandex_api_key_description": {
+      "message": "Insert correct API key into the field and press ENTER key. To get the key, go to"
+   },
+   "insert_your": {
+      "message": "Insert your"
+   },
+   "is_different_from_text_of_annotation_with_same_id_in_video": {
+      "message": "is different from text of annotation with same id in video"
+   },
+   "is_longer_than": {
+      "message": "is longer than"
+   },
+   "is_shorter_than": {
+      "message": "is shorter than"
+   },
+   "it_will_trim_end": {
+      "message": "that is why, it will be trimmed at the end"
+   },
+   "length_of_description_more_than": {
+      "message": "the length of the description more than"
+   },
+   "length_of_title_more_than": {
+      "message": "the length of the title more than"
+   },
+   "log_deprecated_reload_page": {
+      "message": "The log deprecated. Reload the page"
+   },
+   "log_has_not_been_created": {
+      "message": "Log has not been created!"
+   },
+   "log_of_last_mass_update_of_meta_data": {
+      "message": "The log of the last mass update of meta-data"
+   },
+   "mass_editing_of_annotations": {
+      "message": "Mass editing of annotations"
+   },
+   "meta_data_has_been_recovered_for": {
+      "message": "Meta data has been recovered for"
+   },
+   "meta_data_has_been_updated_for": {
+      "message": "Meta data has been updated for"
+   },
+   "min_quantity_of_likes": {
+      "message": "Min quantity of likes"
+   },
+   "min_quantity_of_subscribers": {
+      "message": "Min quantity of subscribers"
+   },
+   "monetization_switched_off": {
+      "message": "Monetization switched off"
+   },
+   "most_popular_comments": {
+      "message": "most popular comments"
+   },
+   "no_added_in_playlist": {
+      "message": "No added in playlist"
+   },
+   "no_authorized_in": {
+      "message": "No authorized in"
+   },
+   "no_changes": {
+      "message": "no changes"
+   },
+   "no_shared_on": {
+      "message": "No shared on"
+   },
+   "no_translate": {
+      "message": "No translate"
+   },
+   "not_selected_videos": {
+      "message": "No selected videos"
+   },
+   "operation_has_been_finished_updated": {
+      "message": "The operation has been finished, updated"
+   },
+   "parsed_videos": {
+      "message": "Parsed videos"
+   },
+   "pinned_comment": {
+      "message": "Pinned comment"
+   },
+   "pinned_comment_consists_link": {
+      "message": "Pinned comment consists link"
+   },
+   "pinned_comment_not_belongs_to_channel_owner": {
+      "message": "Pinned comment not belongs to channel owner"
+   },
+   "pinned_comment_not_consists_link": {
+      "message": "Pinned comment not consists link"
+   },
+   "pinned_comment_not_exists": {
+      "message": "Pinned comment not exists"
+   },
+   "place_in_youtube_search": {
+      "description": "Описания к кнопке поиска места видео в поиске ютуба при вводе тегов в качестве поисковых слов",
+      "message": "Place in Youtube search"
+   },
+   "planned_languages": {
+      "message": "planned languages"
+   },
+   "ranks_in_yandex_keywords": {
+      "description": "Описания к кнопке поиска ретига тегов в яндекс ключевые слова",
+      "message": "Rating in Yandex Keywords"
+   },
+   "recovering_last_log": {
+      "message": "Recovering of the last log"
+   },
+   "regular_expression": {
+      "message": "Regular expression"
+   },
+   "regular_expression_characters_warning": {
+      "message": "You are trying to use one of the special characters of the regular expression: . * + ? \\n \\s \\w \\N \\S \\W If you are not familiar with regular expressions, please click \"Cancel\", in order to avoid unexpected results"
+   },
+   "regular_expression_for_replacing_does_not_exist": {
+      "message": "The regular expression for replacing does not exist"
+   },
+   "regular_expression_or_text": {
+      "message": "Regular expression or text"
+   },
+   "reload_captcha": {
+      "description": "кнопка для презагрузки каптчи",
+      "message": "Reload captcha"
+   },
+   "replace_all": {
+      "message": "Replace all"
+   },
+   "replies_of_the_video_author_to_comments": {
+      "message": "Replies of the video author to comments"
+   },
+   "replies_of_the_video_author_to_most_popular_comments": {
+      "message": "Replies of the video author to most popular comments"
+   },
+   "save_annotation": {
+      "description": "Кнопка сохранить аннотацию",
+      "message": "Save annotation"
+   },
+   "saving_error": {
+      "message": "Saving error"
+   },
+   "search_annotation_placeholder": {
+      "description": "Плэйсхолдер в поле для поиска видео с аннотациями или с подсказками",
+      "message": "Insert name, ID or URL of video"
+   },
+   "search_tags_input_placeholder": {
+      "description": "Плэйсхолдер в поле для поиска тегов",
+      "message": "Specify the subject of tags"
+   },
+   "shared_on": {
+      "message": "Shared on"
+   },
+   "show_tags": {
+      "description": "Кнопка показать тэги",
+      "message": "Show tags"
+   },
+   "successfully_saved": {
+      "message": "successfully_saved"
+   },
+   "successfully_translated_at": {
+      "message": "successfully translated at"
+   },
+   "tags_copied_yet": {
+      "description": "Нажпись, когда тэги уже скопированы",
+      "message": "Copied"
+   },
+   "tags_have_been_copied_in_clipboard": {
+      "message": "Tags have been copied into clipboard"
+   },
+   "tags_in_description": {
+      "message": "Tags in description"
+   },
+   "tags_in_title": {
+      "message": "Tags in title"
+   },
+   "tags_not_exist": {
+      "message": "Tags not exist"
+   },
+   "tags_popularity": {
+      "description": "текст в загловке подблока в блоке найденных тегов",
+      "message": "Popularity of tags"
+   },
+   "text_for_adding_does_not_exist": {
+      "message": "The text for adding does not exist"
+   },
+   "text_for_adding_or_replacing": {
+      "message": "Text for adding or replacing"
+   },
+   "text_of_update": {
+      "message": "Text  of update"
+   },
+   "the_operation_has_not_finished_updated": {
+      "message": "The operation has not been finished. Updated"
+   },
+   "the_other_tab_is_in_the_process_of_mass_update_meta_data_try_again_later": {
+      "message": "The other tab is in the process of mass update of meta data, try again later"
+   },
+   "this_channel_tags_category_title": {
+      "description": "Название категори для тогов текущего канала",
+      "message": "The tags if this channel"
+   },
+   "this_video_tags_category_title": {
+      "description": "Название категори для тогов текущего видео",
+      "message": "The tags if this video"
+   },
+   "thumbnail_size": {
+      "message": "Thumbnail size"
+   },
+   "to_add_annotations": {
+      "message": "to add the annotations"
+   },
+   "to_delete_the_annotations": {
+      "message": "to delete the annotations (Probably this video includes end screens)"
+   },
+   "to_get_the_information_about_the_video": {
+      "message": "to get the information about the video"
+   },
+   "to_public_the_added_annotations": {
+      "message": "to public the added annotations"
+   },
+   "to_save_updated_meta_data": {
+      "message": "to save updated meta-data"
+   },
+   "to_update_the_list_of_the_published_annotations": {
+      "message": "to update the list of the published annotations"
+   },
+   "tooltip_save_in_pattern": {
+      "description": "тултип для иконки сохранения карточки",
+      "message": "Save as template"
+   },
+   "translated_by_yandex_translator": {
+      "message": "«Translated by «Yandex.Translator»"
+   },
+   "translated_to": {
+      "message": "Translated to"
+   },
+   "translated_to_all_planned_languages": {
+      "message": "Translated to all planned languages"
+   },
+   "translating_completed": {
+      "message": "Translating completed"
+   },
+   "translation_to": {
+      "message": "Translation to"
+   },
+   "translations_are_saving_wait": {
+      "message": "The translations are saving, wait"
+   },
+   "type_of_update": {
+      "message": "Type of update"
+   },
+   "unknown_error_occurred": {
+      "message": "The unknown error occurred"
+   },
+   "unknown_saving_error": {
+      "message": "Unknown saving error"
+   },
+   "updated_successfully": {
+      "message": "Updated successfully"
+   },
+   "updating_continue": {
+      "message": "Updating continue"
+   },
+   "updating_has_started": {
+      "message": "Updating has started for"
+   },
+   "updating_of_meta_data_has_been_stopped": {
+      "message": "Updating of meta data has been stopped"
+   },
+   "videos_have_not_been_found": {
+      "message": "Videos have not been found"
+   },
+   "videos_have_not_been_selected": {
+      "message": "Videos have not been selected"
+   },
+   "wait_until_the_link_to_the_video_appears": {
+      "message": "Wait until the link to the video appears"
+   },
+   "when_attempting_to_connect_to_the_server": {
+      "message": "when attempting to connect to the server"
+   },
+   "while_adding_of_annotations": {
+      "message": "while adding of the annotations"
+   },
+   "while_attempting_to_get_the_information_about_annotations_from_server": {
+      "message": "while attempting to get the information about annotations from server"
+   },
+   "while_attempting_to_get_the_information_about_the_video": {
+      "message": "while attempting to get the information about the video"
+   },
+   "while_deleting_the_annotations": {
+      "message": "while deleting the annotations"
+   },
+   "while_publishing_the_added_annotations": {
+      "message": "while_publishing_the_added_annotations"
+   },
+   "while_translating": {
+      "message": "While translating"
+   },
+   "while_updating_the_list_of_the_published_annotations": {
+      "message": "while updating the list of the published annotations"
+   },
+   "will_not_save_because": {
+      "message": "will not save, because"
+   },
+   "with_answer": {
+      "message": "With answer"
+   },
+   "without_answer": {
+      "message": "Without answer"
+   },
+   "word_add": {
+      "description": "слово - добавить",
+      "message": "Add"
+   },
+   "word_all": {
+      "description": "слово - всё",
+      "message": "all"
+   },
+   "word_captions": {
+      "message": "Captions"
+   },
+   "word_cards": {
+      "message": "Cards"
+   },
+   "word_channel": {
+      "message": "Channel"
+   },
+   "word_characters": {
+      "message": "characters"
+   },
+   "word_clear": {
+      "description": "слово - очистить",
+      "message": "Clear"
+   },
+   "word_continue": {
+      "message": "Continue"
+   },
+   "word_copy": {
+      "description": "слово - Копировать",
+      "message": "Copy"
+   },
+   "word_delete": {
+      "message": "Delete"
+   },
+   "word_description": {
+      "message": "Description"
+   },
+   "word_double_tags": {
+      "description": "слово - ДаблТеги",
+      "message": "DoubleTags"
+   },
+   "word_during": {
+      "message": "during"
+   },
+   "word_edit": {
+      "message": "Edit"
+   },
+   "word_endscreens": {
+      "message": "Endscreens"
+   },
+   "word_execute": {
+      "message": "Execute"
+   },
+   "word_filtrate": {
+      "message": "Filtrate"
+   },
+   "word_from": {
+      "message": "from"
+   },
+   "word_hints": {
+      "description": "слово - подсказки",
+      "message": "Hints"
+   },
+   "word_insert": {
+      "message": "Insert"
+   },
+   "word_key": {
+      "message": "Key"
+   },
+   "word_left": {
+      "description": "слово - осталось",
+      "message": "Left"
+   },
+   "word_monetization": {
+      "message": "Monetization"
+   },
+   "word_on_to": {
+      "message": "to"
+   },
+   "word_or": {
+      "description": "слово - или",
+      "message": "or"
+   },
+   "word_private": {
+      "message": "Private"
+   },
+   "word_public": {
+      "message": "Public"
+   },
+   "word_recover": {
+      "message": "Recover"
+   },
+   "word_registration": {
+      "message": "Registration"
+   },
+   "word_repeat": {
+      "message": "Repeat"
+   },
+   "word_replace": {
+      "message": "Replace"
+   },
+   "word_save": {
+      "message": "Save"
+   },
+   "word_search": {
+      "description": "слово - найти",
+      "message": "Search"
+   },
+   "word_seconds": {
+      "message": "seconds"
+   },
+   "word_show": {
+      "description": "слово - показать",
+      "message": "Show"
+   },
+   "word_stop": {
+      "message": "Stop"
+   },
+   "word_symbols": {
+      "description": "слово - символов",
+      "message": "symbols"
+   },
+   "word_tags": {
+      "description": "слово - теги",
+      "message": "Tags"
+   },
+   "word_title": {
+      "message": "Title"
+   },
+   "word_translate": {
+      "message": "Translate"
+   },
+   "word_video": {
+      "message": "Video"
+   },
+   "word_volume": {
+      "description": "слово - объем",
+      "message": "volume"
+   },
+   "word_yandex": {
+      "description": "слово - Яндекс",
+      "message": "Yandex"
+   },
+   "word_youtube": {
+      "description": "слово - Youtube",
+      "message": "Youtube"
+   },
+   "yandex_keywords_title": {
+      "description": "название категории",
+      "message": "Yandex keywords"
+   },
+   "yendex_keyword_volume": {
+      "description": "название для количества запросов в Яндекс",
+      "message": "frequency of queries"
+   },
+   "you_need_api_key": {
+      "message": "You need API key"
+   }
+}

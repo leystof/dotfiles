@@ -1,0 +1,15 @@
+{
+	"color_scheme": "Packages/Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"font_face": "Source code pro medium",
+	"font_size": 10,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"index_files": false,
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"tab_size": 2,
+	"theme": "Material-Theme-Darker.sublime-theme",
+	"word_wrap": true
+}

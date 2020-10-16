@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <value type="int" value="2"/>
+    <property name="panel-1" type="empty">
+      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="icon-size" type="uint" value="16"/>
+      <property name="size" type="uint" value="37"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="3"/>
+        <value type="int" value="5"/>
+        <value type="int" value="6"/>
+        <value type="int" value="25"/>
+        <value type="int" value="11"/>
+        <value type="int" value="12"/>
+        <value type="int" value="13"/>
+        <value type="int" value="14"/>
+        <value type="int" value="4"/>
+        <value type="int" value="24"/>
+        <value type="int" value="27"/>
+        <value type="int" value="26"/>
+      </property>
+      <property name="disable-struts" type="bool" value="false"/>
+    </property>
+    <property name="panel-2" type="empty">
+      <property name="autohide-behavior" type="uint" value="1"/>
+      <property name="position" type="string" value="p=10;x=0;y=0"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="48"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="15"/>
+        <value type="int" value="16"/>
+        <value type="int" value="17"/>
+        <value type="int" value="18"/>
+        <value type="int" value="19"/>
+        <value type="int" value="20"/>
+        <value type="int" value="21"/>
+        <value type="int" value="22"/>
+        <value type="int" value="7"/>
+        <value type="int" value="8"/>
+        <value type="int" value="10"/>
+        <value type="int" value="23"/>
+      </property>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="applicationsmenu"/>
+    <property name="plugin-2" type="string" value="tasklist">
+      <property name="grouping" type="uint" value="1"/>
+    </property>
+    <property name="plugin-3" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-5" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-6" type="string" value="systray">
+      <property name="show-frame" type="bool" value="false"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="names-ordered" type="array">
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="pamac-tray"/>
+        <value type="string" value="индикатор kde connect"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="shadowsocks-qt5"/>
+        <value type="string" value="gpick"/>
+        <value type="string" value="telegramdesktop"/>
+      </property>
+    </property>
+    <property name="plugin-11" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-12" type="string" value="clock"/>
+    <property name="plugin-13" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-14" type="string" value="actions"/>
+    <property name="plugin-15" type="string" value="showdesktop"/>
+    <property name="plugin-16" type="string" value="separator"/>
+    <property name="plugin-17" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15906035091.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-18" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15906035092.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-19" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15906035093.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-20" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15906035094.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-21" type="string" value="separator"/>
+    <property name="plugin-22" type="string" value="directorymenu">
+      <property name="base-directory" type="string" value="/home/leystof"/>
+    </property>
+    <property name="plugin-7" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15906039335.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-8" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15906039406.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-10" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15906039637.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-23" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="15906040058.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-24" type="string" value="wavelan"/>
+    <property name="plugin-25" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="kdeconnect.mpris_17543f48e30242b195683765323cdcf0;kdeconnect.mpris_1fa7729e983b4141be8c2f3cf5fbef2c;kdeconnect.mpris_35e8736f7ff34364969e893fcb3efd85;kdeconnect.mpris_38b2bc50bc9049a3a06e0c4c8f354b3f;kdeconnect.mpris_693813542d704063981b07eb7d5f8fb3;kdeconnect.mpris_7473ec7e4a274bed9a1c38bf503d8aab;kdeconnect.mpris_831f5262cd4a4a1f8cb1cba2eacd6917;kdeconnect.mpris_8b3b4354544643c78622b5fc7e6d5e32;kdeconnect.mpris_95c9937760c24190911a41f2f7e7f674;kdeconnect.mpris_aa55338844dd4b32a5e5ed0f26f79153;kdeconnect.mpris_baef69c32c63437287d635e1697d5d78;kdeconnect.mpris_dd021277f5bc485587225dde9479c92a;kdeconnect.mpris_e13eb9d0c76f47a38cc8ee9b655482d7;kdeconnect.mpris_e3deaa68ead640f0b8cb3687315cd24c;kdeconnect.mpris_ec42d6041a0947b78ffa4433cccedffe"/>
+    </property>
+    <property name="plugin-26" type="string" value="xkb"/>
+    <property name="plugin-27" type="string" value="netload"/>
+    <property name="plugin-4" type="string" value="xfce4-mount-plugin"/>
+  </property>
+</channel>

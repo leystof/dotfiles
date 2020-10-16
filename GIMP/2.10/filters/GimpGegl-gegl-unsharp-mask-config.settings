@@ -1,0 +1,10 @@
+# settings
+
+(GimpGegl-gegl-unsharp-mask-config "2020-07-29 16:41:54"
+    (time 1596030114)
+    (gimp-clip clip)
+    (std-dev 3)
+    (scale 0.5)
+    (threshold 0))
+
+# end of settings

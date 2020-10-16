@@ -1,0 +1,475 @@
+//
+// variables
+//
+$black: #000
+$white: #fff
+
+$light_gray: #99A2AD
+$text_gray: #818C99
+$dark_gray: #6D7885
+$text_blue: #4986CC
+
+$button_blue: #4986CC
+$hover_light_blue: #F2F3F5
+$menu_hover: #EBEDF0
+$selected_blue: #3F8AE0
+$audio_blue: #577ca1
+$link_dark_blue: #335680
+$icon_blue: #3F8AE0
+$icon_red: #E64646
+$steel_gray_300: #9ba2ac
+$input_bg: #f5f5f5
+$link_fg: #547CA7
+
+//
+// rules
+//
+base-fg: $black
+base-bg: $white
+//base-icon: $icon_blue,65%
+base-icon: $icon_blue
+base-icon-hover: $icon_blue
+red-icon: $icon_red
+gray-icon: #828a99,70%
+steel-gray-icon: $steel_gray_300
+gray-fg: $text_gray
+lightgray-fg: $light_gray
+darkgray-fg: $dark_gray
+bluegray-fg: #939699
+blue-fg: $text_blue
+search-hl-bg: #E5EBF1
+user-name-fg: #397ECC
+menu-hover-bg: $menu_hover
+hover-bg: $hover_light_blue
+
+#if LINUX
+  ubuntu-selection-bg: rgba(239, 118, 69, 0.99)
+  ubuntu-selection-fg: $white
+#elif WINDOWS
+  win32-window-frame: #507299
+  win32-window-title-fg: $white
+  win32-window-title-bg: #507299
+  win32-window-title-btn-fg: $white
+  win32-window-title-btn-hover-bg: $black,20%
+  win32-window-title-btn-active-bg: $black,25%
+  win32-window-title-closebtn-hover-bg: #EB0716
+  win32-window-title-closebtn-active-bg: #DE000F
+#endif
+
+link-fg: $text_blue
+link-darker-fg: $text_blue
+link-service-fg: #2e7b27
+link-underline: $link_fg,25%
+link-hover-underline: $link_fg,80%
+input-search-placeholder-fg: $text_gray
+input-search-bg: #f5f5f5
+input-search-icon: $text_gray
+input-search-clear-icon: #a1a4a7
+input-search-clear-icon2: #aeb7c2
+input-bg: #eff1f4
+input-placeholder-fg: #9ba1ae
+input-label-fg: $text_gray
+textarea-border: #dedede
+empty-placeholder-fg: $light_gray
+
+button-fg: $white
+button-bg: $button_blue
+button-hover-bg: #688bad
+button-hover-fg: $white
+button-active-bg: #557ba1
+button-active-fg: $white
+button-spinner-fg: $white
+
+buttonlight-fg: $icon_blue
+buttonlight-bg: transparent
+buttonlight-withbg-bg: #F2F3F5
+buttonwide-fg: $white
+buttonwide-bg: $button_blue
+
+tt-bg: #141414,90%
+tt-fg: $white
+tt-arrow-icon: #141414,90%
+tt-audio-fg: #556983
+tt-audio-bg: #d3dce5
+tt-audio-arrow-icon: #d3dce5
+
+promo-tt-bg: #5A9EFF
+promo-tt-fg: #fff
+promo-tt-arrow-icon: #5A9EFF
+promo-tt-shadow: #000,32%
+
+layer-bg: $black,40%
+layer-box-bg: $white
+layer-box-shadow: $black,12%
+layer-loading-bg: $white,45%
+layer-loading-spinner-bg: $white
+mbox-subtitle-fg: #8f9295
+mbox-text-fg: $black
+about-title-fg: #1a1a1a
+about-text-fg: #3c3c3c
+about-bullet-fg: #d8d8d8
+update-button-downloading-bg: #e6e9ed
+update-button-downloading-fg: #7c8591
+update-button-progress-bg: #d1d7e0
+update-version-fg: #777
+
+dialogitem-bg: $white
+dialogitem-hover-bg: $hover_light_blue
+dialogitem-selected-bg: $hover_light_blue
+dialogitem-name-fg: #222
+dialogitem-online-bg: #71cb50
+dialogitem-message-fg: #6D7885
+dialogitem-message-out-fg: #99A2AD
+dialogitem-selected-message-out-fg: $white,70%
+
+dialogitem-wm-gradient-stop0: $white,0%
+dialogitem-wm-gradient-stop1: $white
+dialogitem-wm-selected-gradient-stop0: $hover_light_blue,0%
+dialogitem-wm-selected-gradient-stop1: $hover_light_blue
+dialogitem-wm-icon-fg: $light_gray
+msgp-border: #c9cccf
+msgp-bottom-gradient-stop0: $white,0%
+msgp-bottom-gradient-stop1: $white
+
+dialogitem-selected-message-attach-fg: $white,70%
+dialogitem-badge-bg: $selected_blue
+dialogitem-badge-fg: $white
+dialogitem-selected-badge-bg: $white,30%
+dialogitem-selected-badge-fg: $selected_blue
+dialogitem-outbadge-bg: $selected_blue
+dialogitem-outbadge-fg: $white
+dialogitem-muted-badge-bg: #A3ADB8
+dialogitem-selected-verified-icon: $white,80%
+dialogitem-muted-icon: #b3b5b7,85%
+dialogitem-delete-icon: $light_gray,70%
+dialogitem-delete-icon-active: $light_gray
+dialogitem-selected-delete-icon: $white,65%
+dialogitem-selected-delete-icon-hover: $white
+dialogitem-selected-muted-icon: $white,45%
+dialogitem-important-icon: #b3b5b7,85%
+dialogitem-sending-icon: #a0b6ce
+dialogitem-selected-sending-icon: #a0b6ce
+
+header-border: #E1E3E6
+header-title: $black
+
+header-back-fg: #356091
+header-back-icon: #96a7c2
+header-remove-selection-icon: #96a0aa,60%
+
+left-border: #e1e3e6
+left-empty-title-fg: #768695
+right-big-text-fg: #A5B0BB // forward, dnd
+
+left-empty-text-fg: #768695
+
+info-icon: #95a8c4
+info-subtitle-fg: $black
+info-name-edit-icon: $icon_blue,50%
+info-name-edit-icon-hover: $icon_blue,95%
+info-name-input-border-bottom: #DADFE6
+info-chat-image-overlay-bg: $black,50%
+info-chat-image-placeholder-bg: $white
+info-chat-image-placeholder-border: #ECECEC
+info-chat-image-placeholder-icon: #a5b4c5
+info-chat-image-change-icon: $white
+info-list-item-hover-bg: $hover_light_blue
+info-list-leave-fg: #DC5151
+info-list-return-fg: #309648
+info-attaches-select-arrow-icon: #8e9399
+info-attaches-select-active-arrow-icon: #b6babf
+info-attaches-empty-placeholder-fg: #768695
+info-attaches-link-letter-bg: #E9EEF3
+info-attaches-link-letter-fg: #89949F
+
+dialog-input-bg: $white
+dialog-input-ta-bg: #F5F5F5
+dialog-input-ta-border: #E1E3E6
+dialog-input-ta-empty-fg: #909499
+dialog-input-audio-rec-playpause-icon: $white
+dialog-input-audio-wave-bg: $selected_blue
+dialog-input-attaches-shadow: #ced9e3 // inner shadow after scrolling
+dialog-input-attach-remove-bg: $black,50%
+dialog-input-attach-remove-hover-bg: $black,80%
+dialog-input-attach-remove-icon: $white
+dialog-input-attach-bg: #e9edf2
+dialog-input-attach-file-name-fg: #30353a
+dialog-input-attach-file-size-fg: #65819c
+dialog-input-attach-doc-upload-bg: #bfcdda
+dialog-input-attach-doc-upload-progress-bg: $audio_blue
+dialog-input-attach-doc-remove-bg: rgba(137, 157, 189, 0.15)
+dialog-input-attach-doc-remove-hover-bg: rgba(137, 157, 189, 0.25)
+dialog-input-attach-doc-icon: #899dbd
+dialog-input-attach-audio-dur-fg: #7e8f9f
+dialog-input-attach-fwd-line-bg: #DFE4E8
+dialog-input-attach-progress-wrap-bg: $black,15%
+dialog-input-attach-image-bg: #dee3e8
+dialog-input-attach-audio-hover-bg: #e9edf2
+dialog-input-attach-geo-remove-bg: $black,50%
+dialog-input-attach-geo-remove-hover-bg: $black
+dialog-input-mentions-list-shadow: $black,5% // top shadow
+dialog-input-attach-border: $black,10%
+
+dialog-input-keyboard-default-bg: #fff
+dialog-input-keyboard-default-fg: #000,90%
+dialog-input-keyboard-default-border: #d4dadf
+
+dialog-input-keyboard-negative-bg: #e76666
+dialog-input-keyboard-negative-fg: #fff,90%
+dialog-input-keyboard-negative-border: #e76666
+
+dialog-input-keyboard-positive-bg: #63b963
+dialog-input-keyboard-positive-fg: #fff,90%
+dialog-input-keyboard-positive-border: #63b963
+
+dialog-input-keyboard-primary-bg: $hover_light_blue
+dialog-input-keyboard-primary-fg: $icon_blue
+dialog-input-keyboard-primary-border: $hover_light_blue
+
+dialog-header-back-badge-fg: $white
+dialog-header-back-badge-bg: $selected_blue
+dialog-typing-text-fg: #707983
+dialog-typing-point-icon: #4986CC
+dialog-typing-point-gray-icon: #909499
+dialog-messages-error-icon: #d1d6dc
+dialog-messages-date-bg: $white
+dialog-messages-date-fg: #6C7986
+dialog-messages-date-shadow: $black,8%
+dialog-messages-date-border: #D9DFE6
+dialog-messages-load-error-big-title-fg: #a5b0bb
+dialog-messages-new-line-bg: $black,10%
+dialog-history-end-button-shadow: $black,8%
+dialog-history-end-button-border: #D9DFE6
+dialog-history-end-button-hover-border: #D9DFE6
+dialog-history-end-button-bg: $white
+dialog-history-end-button-hover-bg: $white
+dialog-history-end-button-badge-bg: $selected_blue
+dialog-history-end-button-badge-fg: $white
+dialog-history-end-button-icon: $icon_blue,70%
+dialog-history-end-button-icon-hover: $icon_blue
+dialog-search-message-arrow-icon: #c3c4c5
+dialog-message-unread-bg: #EEF5FD
+dialog-message-hover-bg: $hover_light_blue
+dialog-message-photo-bg: #f5f5f5
+dialog-message-gift-bg: #f4ebd7
+dialog-message-gift-time-fg: #7f7661
+dialog-message-gift-text-fg: #6a614a
+dialog-message-selected-bg: #EEF5FD
+dialog-message-gift-selected-bg: #f4ebd7
+dialog-message-select-icon: $selected_blue,50%
+dialog-message-select-hover-icon: #99afc7
+dialog-message-selected-select-icon: $icon_blue
+dialog-message-gift-select-icon: #d3c5a3
+dialog-message-gift-selected-select-icon: #beab80
+dialog-forwarded-line: #c8d3df
+attach-upload-progress-cancel-bg: $black,20%
+attach-upload-progress-retry-bg: $black,50%
+attach-upload-progress-cancel-icon: $white,70%
+attach-upload-progress-cancel-icon-hover: $white
+attach-photo-bg: #f1f1f1
+attach-photo-upload-progress-bg: $black,15%
+attach-photo-upload-cancel-icon: $white,50%
+attach-doc-bg: #eee
+attach-doc-loader-bg: $black,50%
+attach-doc-image-info-fg: $white
+attach-doc-image-info-bg: $black,40%
+attach-doc-image-gift-mark-fg: $white
+attach-doc-image-gift-mark-bg: $black,40%
+attach-doc-image-upload-progress-bg: $black,15%
+attach-doc-title-fg: $white
+attach-doc-title-bg: $black,40%
+attach-doc-file-upload-bg: #bfcdda
+attach-doc-file-upload-progress-bg: $audio_blue
+attach-doc-audio-upload-progress-bg: $audio_blue
+attach-link-border: #e1e3e7
+attach-link-text-fg: #4d5861
+attach-link-image-border: $black,12%
+attach-url-rounded-fg: $white
+attach-wall-border: #a6bcd5
+attach-audio-play-icon-bg: $icon_blue
+attach-audio-play-icon-fg: $white
+attach-audio-hover-bg: #f7f8fa
+attach-audio-unreadmessage-hover-bg: #dfe4ed
+attach-audio-bar-full-bg: #e4eaf0
+attach-audio-unreadmessage-bar-full-bg: #c7d1df
+attach-audio-bar-buffered-bg: #c8d5e1
+attach-audio-unreadmessage-bar-buffered-bg: #aebbcf
+attach-audio-bar-progress-bg: $selected_blue
+attach-audio-bar-slider-bg: $selected_blue
+attach-video-play-icon: $white
+attach-video-dur-fg: $white
+attach-video-dur-bg: $black,40%
+attach-snapster-over-label-fg: $white
+attach-money-transfer-from-fg: #5a5a5a
+attach-money-transfer-left-rub-border: $black,6%
+attach-market-border: $black,15%
+attach-market-desc-fg: #595959
+attach-poll-answer-bg: #e5eaf0
+attach-poll-answer-hover-bg: #d5dce3
+attach-poll-answer-count-fg: $light_gray
+attach-poll-gradient-answer-bg: $white,12%
+attach-poll-gradient-answer-hover-bg: $white,20%
+attach-poll-gradient-checkbox-border: #c1c9d1
+attach-answered-poll-answer-rate-bg: #c6d1de
+attach-answered-poll-gradient-answer-rate-bg: $white,28%
+attach-answered-poll-my-answer-fg: #4a72a0
+attach-answered-poll-gradient-my-answer-fg: $white
+attach-album-name-textshadow: $black,25%
+attach-album-author-textshadow: $black,20%
+attach-album-name-fg: $white
+attach-album-author-fg: $white
+attach-playlist-default-cover-fg: #a5abb4
+attach-playlist-default-cover-bg: #f0f2f4
+attach-playlist-head-info-button-fg: $white,90%
+attach-playlist-showall-hover-bg: #f7f8fa
+attach-playlist-play-icon: $white
+attach-gift-image-shadow: $black,8%
+
+photos-result-border: #f2f2f2
+photos-photo-overlay-bg: $black
+photos-selected-icon-fg: #6e90b8
+photos-selected-icon-bg: $white
+photos-webcam-icon-bg: #f74842
+photos-webcam-icon-fg: $white
+photos-webcam-bg: $black
+photos-webcam-placeholder-bg: $black
+photos-webcam-placeholder-fg: #ccc
+photos-webcam-timer-second-fg: #f74842
+photos-album-icon-bg: #edf0f3
+photos-album-icon-fg: #9eb4cc
+photos-album-icon-hover-bg: #d5dbe2
+docs-item-line-bg: #eaeaea
+
+photos-new-webcam-btn-fg: #397ECC
+photos-new-webcam-btn-bg: #F2F3F5
+
+//
+// context menus
+//
+context-menu-border: #D9DFE6
+context-menu-item-fg: $black
+context-menu-item-hover-bg: $menu_hover
+context-menu-item-hover-fg: $white
+context-menu-item-icon-hover-fg: $white
+
+context-menu-arrow-icon: #879ab0
+main-menu-section-fg: #969da2
+main-menu-update-icon-bg: #e4ebf5
+main-menu-update-icon-fg: #92a8c0
+
+popover-bg: $white
+popover-shadow: $black,20%
+popover-shadow2: $black,24%
+
+calendar-bg: $white
+calendar-shadow: $black,8%
+calendar-border: #E3E3E3
+calendar-dow-fg: #6D7885
+calendar-cell-selected-fg: $white
+calendar-cell-selected-bg: #528ada
+
+compose-chat-icon-bg: $hover_light_blue
+
+toast-link-fg: #916108
+toast-yellow-bg: #f7c360
+toast-yellow-fg: $white
+toast-green-bg: #47be5b
+toast-green-fg: $white
+toast-message-bg: #e4ebf5
+toast-message-fg: #67788a
+
+audioplayer-progress-full-bg: rgba(200, 213, 225, 0.5)
+audioplayer-progress-buffered-bg: rgba(200, 213, 225, 1)
+audioplayer-progress-value-bg: $selected_blue
+audioplayer-slider-bg: $selected_blue
+
+communities-icon: $black,25%
+
+accpanel-bg: #ebeef1
+accpanel-border-right: #dcdfe1
+accpanel-sep-border-bottom: #d3d7da
+accpanel-cur-icon: $selected_blue
+accpanel-badge-fg: $white
+accpanel-badge-bg: $icon_blue
+accpanel-graybadge-bg: #9ea6ad
+accpanel-dimmed-bg: $black,15%
+accpanel-dimmed-badge-border: #cacccc
+accpanel-add-hover-bg: #99aab9
+accpanel-add-hover-fg: $white
+
+group-ban-user-status-fg: #888
+chatlink-reset-bg: #e9eef5
+chatlink-reset-fg: #4e5966
+
+dnd-border-color: #99A2AD
+dnd-active-bg: $hover_light_blue
+dnd-text: $text_gray
+dnd-icon: #9fb2c7
+initials-avatar-fg: $white
+captcha-bg: #eee
+spinner-monochrome-bg: $white
+spinner-fg: #aeb7c2
+
+toggle-bg: #DFE4E8
+toggle-slider-border: #C1C9D1
+toggle-slider-bg: $white
+toggle-enabled-bg: #c7d8ed
+toggle-enabled-slider-bg: #528ada
+radio-border: #AEB7C2
+radio-selected-border: #3F8AE0
+checkbox-border: #AEB7C2
+checkbox-bg: $button_blue
+checkbox-fg: $white
+//checkbox-checked-bg: #f2f4f6
+dropdown-items-border: #e0e0e0
+dropdown-shadow: $black,10%
+dropdown-item-hover-bg: #eef0f2
+componentimage-bg: #f3f3f3
+
+login-title-fg: #222
+login-footer-link-fg: #7e858e
+login-error-fg: #ed4f4f
+login-input-bg: $input_bg
+login-input-fg: $black
+login-input-placeholder: $text_gray
+login-input-focus-border: #4986CC
+login-input-error-border: #EC6D6D
+login-resend-timer-fg: $black
+login-icons: #bfc5cb // show-password, hide-password, settings
+login-icons-hover: #728fac
+
+settings-section-fg: #1C1E23
+settings-profile-userpic-uploading-bg: $black,50%
+settings-profile-userpic-uploading-spinner-bg: $white,25%
+settings-profile-userpic-uploading-spinner-fg: $white
+settings-separator-bg: #ececec
+settings-line-editing-bg: #f3f4f5
+settings-line-link-red-fg: #ff3a30
+settings-secondlevel-line-border: #d8d8d8
+settings-notifications-community-badge-fg: #666
+settings-buttonlight-hover-bg: #e1e7ed
+settings-block-title-fg: #7e8081
+settings-scale-fg: $text_blue
+settings-scale-bg: $hover_light_blue
+settings-scale-selected-fg: $white
+settings-scale-selected-bg: $button_blue
+settings-error-bg: #f5dede
+settings-error-code-bg: rgba(80, 20, 20, 0.15)
+
+smiles-box-bg: #fff
+smiles-box-smile-hover-bg: #ecf0f3
+smiles-box-section-header-fg: #909499
+smiles-box-tabs-border: #d9dfe6
+
+calls-menu-beta-fg: $light_gray
+calls-menu-beta-hover-fg: $white,55%
+
+select-arrow-fg: $icon_blue
+
+work-dialogs-section-fg: #909499
+
+nano-slider-bg: rgba(0, 0, 0, 0.3)
+nano-slider-hover-bg: rgba(0, 0, 0, 0.4)
+nano-slider-active-bg: rgba(0, 0, 0, 0.5)
+
+ripple: #40464e,50%
